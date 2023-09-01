@@ -38,7 +38,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         name: '留言板',
         url: '/comments/',
         icon: 'mdi:clipboard-minus-outline',
-        color: '#7336d4',
+        color: '#6f21ee',
       },
       {
         name: '相册',
@@ -52,12 +52,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-open-arm-line',
         color: '#4bbea4',
       },
-      {
+      /* {
         name: '喜欢的女孩子',
         url: '/girls/',
         icon: 'i-ri-women-line',
         color: 'hotpink',
-      },
+      }, */
     ],
 
     footer: {
