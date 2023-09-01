@@ -93,7 +93,7 @@ export default defineSiteConfig({
 
   search: {
     enable: true,
-    type: 'fuse',	//"algolia"或"engine"或"fuse"，代码有注释
+    type: 'algolia',	//"algolia"或"engine"或"fuse"，代码有注释
   },
 
   sponsor: {
@@ -119,5 +119,19 @@ export default defineSiteConfig({
         icon: 'i-ri-wechat-pay-line',
       },
     ],
+  },
+
+  // 文章统计
+  statistics: {
+    enable: true,
+    readTime: {
+    /**
+     * 阅读速度
+     */
+    speed: {
+        cn: 300,
+        en: 200,
+      },
+    },
   },
 })
