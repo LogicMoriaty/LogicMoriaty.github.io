@@ -38,7 +38,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         name: '留言板',
         url: '/comments/',
         icon: 'ri-clipboard-line',
-        color: '#6f21ee',
+        color: '#4321ee',
       },
       {
         name: '相册',
