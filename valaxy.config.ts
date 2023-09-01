@@ -20,7 +20,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: ['Lomori','的','无','聊','小','站'],
+      title: ['Lomori','的','秘','密','小','站'],
       cloud: {
         enable: true,
       },
