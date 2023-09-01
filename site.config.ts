@@ -93,7 +93,7 @@ export default defineSiteConfig({
 
   search: {
     enable: true,
-    type: 'algolia',	//"algolia"或"engine"或"fuse"，代码有注释
+    type: 'fuse',	//"algolia"或"engine"或"fuse"，代码有注释
   },
 
   sponsor: {
