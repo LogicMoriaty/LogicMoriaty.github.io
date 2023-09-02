@@ -135,5 +135,9 @@ export default defineSiteConfig({
       },
     },
   },
+  
+  comment: {
+    enable: true
+  },
 
 })
