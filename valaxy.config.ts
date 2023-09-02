@@ -40,7 +40,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     // 网页背景
     bg_image: {
       enable: true,
-      url: "https://bu.dusays.com/2021/10/03/c77ab5169ae7f.png",	// 白日模式背景
+      url: "https://t.mwm.moe/fj/",	// 白日模式背景
       dark: "https://bu.dusays.com/2023/05/08/6458b04446a4f.jpg",	// 夜间模式背景
     //   这个是透明度
       opacity: 0.6,
