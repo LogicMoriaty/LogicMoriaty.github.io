@@ -1,7 +1,7 @@
 ---
-title: Hello, Valaxy!
-date: 2022-04-01
-updated: 2022-04-01
+title: Hello, 记录网站上的第一篇blog!
+date: 2023-09-02
+updated: 2023-09-02
 categories: Valaxy 笔记
 tags:
   - valaxy
@@ -9,12 +9,5 @@ tags:
 top: 1
 ---
 
-## Valaxy
-
-Next Generation Static Blog Framework.
-
-Write your first post!
-
-## Usage
-
-Modify `valaxy.config.ts` to custom your blog.
+# Hello！
+网站终于算是差不多搭建好了，总算是有了自己的Blog网站，小小的记录一下hhh！o(*≧▽≦)ツ
