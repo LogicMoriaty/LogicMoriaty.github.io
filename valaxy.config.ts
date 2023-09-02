@@ -102,7 +102,7 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   unocss: { safelist },
 
-  /* // 评论插件功能，插件想要对应添加
+  // 评论插件功能，插件想要对应添加
   addons: [
   addonWaline({
     serverURL: "https://logicmoriaty-waline.vercel.app/",		// Waline服务链接
@@ -120,7 +120,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   }),
   // 注意注意，这个是相册功能
   addonLightGallery(),
-], */
+],
 
 
 })
