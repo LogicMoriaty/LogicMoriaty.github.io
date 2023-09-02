@@ -1,5 +1,6 @@
 import { defineSiteConfig } from 'valaxy'
 
+
 export default defineSiteConfig({
   url: 'https://valaxy.site/',
   lang: 'zh-CN',
@@ -134,4 +135,5 @@ export default defineSiteConfig({
       },
     },
   },
+
 })

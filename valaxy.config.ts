@@ -101,26 +101,26 @@ export default defineValaxyConfig<UserThemeConfig>({
 
 
   unocss: { safelist },
-
   // 评论插件功能，插件想要对应添加
   addons: [
-  addonWaline({
-    serverURL: "https://comment.logicmoriaty.top/",		// Waline服务链接
-    locale: {
-      placeholder: "填写qq邮箱或点击登录，可以展示个人头像",
-    },
-    comment: true,
-    pageview: true,
-    emoji: [
-      "https://jsd.onmicrosoft.cn/gh/walinejs/emojis@latest/bmoji/",
-      "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/weibo/",
-      "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/qq/",
-      "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/tieba/",
-    ],
-  }),
-  // 注意注意，这个是相册功能
-  addonLightGallery(),
-],
+  
+    addonWaline({
+      serverURL: "https://comment.logicmoriaty.top",		// Waline服务链接
+      locale: {
+        placeholder: "填写qq邮箱或点击登录，可以展示个人头像",
+      },
+      comment: true,
+      pageview: true,
+      emoji: [
+        "https://jsd.onmicrosoft.cn/gh/walinejs/emojis@latest/bmoji/",
+        "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/weibo/",
+        "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/qq/",
+        "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/tieba/",
+      ],
+    }),
+    // 注意注意，这个是相册功能
+    addonLightGallery(),
+  ],
 
 
 })
