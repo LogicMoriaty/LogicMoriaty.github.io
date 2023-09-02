@@ -105,7 +105,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   // 评论插件功能，插件想要对应添加
   addons: [
   addonWaline({
-    serverURL: "https://logicmoriaty-waline.vercel.app/",		// Waline服务链接
+    serverURL: "https://comment.logicmoriaty.top/",		// Waline服务链接
     locale: {
       placeholder: "填写qq邮箱或点击登录，可以展示个人头像",
     },
