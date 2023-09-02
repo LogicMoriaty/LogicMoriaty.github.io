@@ -105,12 +105,12 @@ export default defineValaxyConfig<UserThemeConfig>({
   addons: [
   
     addonWaline({
+      comment: true,
+      pageview: true,
       serverURL: "https://comment.logicmoriaty.top",		// Waline服务链接
       locale: {
         placeholder: "填写qq邮箱或点击登录，可以展示个人头像",
       },
-      comment: true,
-      pageview: true,
       emoji: [
         "https://jsd.onmicrosoft.cn/gh/walinejs/emojis@latest/bmoji/",
         "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/weibo/",
