@@ -6,5 +6,5 @@ links: https://friends.yunyoujun.cn/links.json
 random: true
 ---
 
-<YunLinks :links="formatter.links" :random="frontmatter.random" />
+<YunLinks :links="frontmatter.links" :random="frontmatter.random" />
 
