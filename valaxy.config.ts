@@ -4,6 +4,7 @@ import { addonWaline } from "valaxy-addon-waline";
 import { addonLightGallery } from 'valaxy-addon-lightgallery';
 
 
+
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',

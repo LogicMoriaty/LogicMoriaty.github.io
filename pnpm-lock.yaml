@@ -8,9 +8,6 @@ dependencies:
   valaxy:
     specifier: 0.14.54
     version: 0.14.54(@types/markdown-it@13.0.1)(@unhead/vue@1.3.9)(postcss@8.4.29)(typescript@5.2.2)
-  valaxy-addon-components:
-    specifier: link:valaxy-addon-components
-    version: link:valaxy-addon-components
   valaxy-addon-lightgallery:
     specifier: ^0.0.2
     version: 0.0.2
