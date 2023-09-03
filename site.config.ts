@@ -2,7 +2,7 @@ import { defineSiteConfig } from 'valaxy'
 
 
 export default defineSiteConfig({
-  url: 'https://valaxy.site/',
+  url: 'https://cdn.jsdelivr.net/gh/LogicMoriaty/LogicMoriaty.github.io/source/1657446019015.jpg',
   lang: 'zh-CN',
   title: "-Lomori's blog~-",
   subtitle:"~~~~~~~~~~~~~~~~",
