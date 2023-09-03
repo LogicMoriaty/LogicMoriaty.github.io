@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "valaxy": "0.14.54",
+    "valaxy-addon-components": "link:valaxy-addon-components",
     "valaxy-addon-lightgallery": "^0.0.2",
     "valaxy-addon-waline": "^0.1.0",
     "valaxy-theme-yun": "0.14.54"
