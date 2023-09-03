@@ -9,6 +9,10 @@ export default defineSiteConfig({
   description: 'Per Aspera, Ad Astra——',
   author: {
     name: 'Logic·Moriaty',
+    avatar: "https://cdn.jsdelivr.net/gh/LogicMoriaty/LogicMoriaty.github.io/source/1657446019015.jpg",	//头像链接
+    status: {
+      emoji: '✨'	// 头像旁边的emoji
+    },
   },
   //description: 'Valaxy Theme Yun Preview.',
   social: [
