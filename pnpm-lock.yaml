@@ -22,6 +22,9 @@ devDependencies:
   typescript:
     specifier: ^5.1.6
     version: 5.2.2
+  valaxy-addon-components:
+    specifier: ^0.0.2
+    version: 0.0.2
 
 packages:
 
@@ -2992,6 +2995,10 @@ packages:
       querystringify: 2.2.0
       requires-port: 1.0.0
     dev: false
+
+  /valaxy-addon-components@0.0.2:
+    resolution: {integrity: sha512-J6JeNTagohF9fNvYaYiOwVHQGuhoWamy1P01mEUfzreacaJ3CqzJU1G/uSFMTvm3CXvMo8OAQCwqa+OqBG0dkw==}
+    dev: true
 
   /valaxy-addon-lightgallery@0.0.2:
     resolution: {integrity: sha512-pP8hmHMad1QxKzzh1GwjL3dC6/bm1Vpj9lYefwZ+EzOgSUaQ44LVeU2koA+C6c2iy5AaDZlZzZ7LLnvckanYJA==}
