@@ -10,3 +10,4 @@ tags:
 top: 1
 ---
 再见
+![](../../source/images/236330202e3f44c4b584125dc92cf9b3.jpg)
