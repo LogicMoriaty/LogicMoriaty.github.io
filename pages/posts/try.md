@@ -9,4 +9,4 @@ tags:
   - Valaxy
 top: 1
 ---
-你好
+再见
