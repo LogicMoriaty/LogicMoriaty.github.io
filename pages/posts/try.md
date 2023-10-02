@@ -1,0 +1,13 @@
+---
+share: "true"
+title: try
+date: 2023-09-02
+updated: 2023-09-02
+categories: Valaxy 笔记
+tags:
+  - 笔记
+  - Valaxy
+top: 1
+---
+再见
+![](../../source/images/236330202e3f44c4b584125dc92cf9b3.jpg)
