@@ -2,6 +2,7 @@ import { defineValaxyConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { addonWaline } from "valaxy-addon-waline";
 import { addonLightGallery } from 'valaxy-addon-lightgallery';
+import { addonComponents } from 'valaxy-addon-components'
 
 
 
@@ -120,6 +121,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     }),
     // 注意注意，这个是相册功能
     addonLightGallery(),
+    addonComponents(),
   ],
 
 
