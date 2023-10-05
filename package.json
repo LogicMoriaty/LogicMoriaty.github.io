@@ -11,10 +11,13 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "markdown-it-admonition": "^1.0.4",
+    "particles.js": "^2.0.0",
     "valaxy": "0.14.54",
     "valaxy-addon-lightgallery": "^0.0.2",
     "valaxy-addon-waline": "^0.1.0",
-    "valaxy-theme-yun": "0.14.54"
+    "valaxy-theme-yun": "0.14.54",
+    "vue-canvas-nest": "^2.0.0"
   },
   "devDependencies": {
     "typescript": "^5.1.6",

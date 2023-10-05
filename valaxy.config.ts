@@ -2,7 +2,9 @@ import { defineValaxyConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { addonWaline } from "valaxy-addon-waline";
 import { addonLightGallery } from 'valaxy-addon-lightgallery';
-import { addonComponents } from 'valaxy-addon-components'
+import { addonComponents } from 'valaxy-addon-components';
+// import particlesJS from 'particles.js'
+// import app from './app.js'
 
 
 
@@ -99,6 +101,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         icp: '苏ICP备17038157号',
       },
     },
+
   },
 
   unocss: { safelist },
@@ -122,6 +125,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     // 注意注意，这个是相册功能
     addonLightGallery(),
     addonComponents(),
+    // app(),
   ],
 
 

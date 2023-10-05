@@ -5,6 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  markdown-it-admonition:
+    specifier: ^1.0.4
+    version: 1.0.4
+  particles.js:
+    specifier: ^2.0.0
+    version: 2.0.0
   valaxy:
     specifier: 0.14.54
     version: 0.14.54(@types/markdown-it@13.0.1)(@unhead/vue@1.3.9)(postcss@8.4.29)(typescript@5.2.2)
@@ -17,6 +23,9 @@ dependencies:
   valaxy-theme-yun:
     specifier: 0.14.54
     version: 0.14.54
+  vue-canvas-nest:
+    specifier: ^2.0.0
+    version: 2.0.0(vue@2.7.14)
 
 devDependencies:
   typescript:
@@ -567,7 +576,7 @@ packages:
     peerDependencies:
       '@unhead/vue': '>=1.1.9'
     dependencies:
-      '@unhead/vue': 1.3.9(vue@3.3.4)
+      '@unhead/vue': 1.3.9(vue@2.7.14)
     dev: false
 
   /@unhead/schema@1.3.9:
@@ -590,7 +599,7 @@ packages:
       '@unhead/shared': 1.3.9
     dev: false
 
-  /@unhead/vue@1.3.9(vue@3.3.4):
+  /@unhead/vue@1.3.9(vue@2.7.14):
     resolution: {integrity: sha512-rVAsRLBc+3Y//NRmr7vmRs5yhIf65jYSvcj0V5DtDfDwql7BbGgc3VIIEvY0+EjLQuNsS5kxwm78LSPCIl/3Xw==}
     peerDependencies:
       vue: '>=2.7 || >=3'
@@ -599,7 +608,7 @@ packages:
       '@unhead/shared': 1.3.9
       hookable: 5.5.3
       unhead: 1.3.9
-      vue: 3.3.4
+      vue: 2.7.14
     dev: false
 
   /@unocss/astro@0.55.3(vite@4.4.9):
@@ -823,6 +832,14 @@ packages:
       '@vue/shared': 3.3.4
     dev: false
 
+  /@vue/compiler-sfc@2.7.14:
+    resolution: {integrity: sha512-aNmNHyLPsw+sVvlQFQ2/8sjNuLtK54TC6cuKnVzAY93ks4ZBrvwQSnkkIh7bsbNhum5hJBS00wSDipQ937f5DA==}
+    dependencies:
+      '@babel/parser': 7.22.14
+      postcss: 8.4.29
+      source-map: 0.6.1
+    dev: false
+
   /@vue/compiler-sfc@3.3.4:
     resolution: {integrity: sha512-6y/d8uw+5TkCuzBkgLS0v3lSM3hJDntFEiUORM11pQ/hKvkhSKZrXW6i69UyXlJQisJxuUEJKAWEqWbWsLeNKQ==}
     dependencies:
@@ -906,7 +923,7 @@ packages:
       - vue
     dev: false
 
-  /@vueuse/head@1.3.1(vue@3.3.4):
+  /@vueuse/head@1.3.1(vue@2.7.14):
     resolution: {integrity: sha512-XCcHGfDzkGlHS7KIPJVYN//L7jpfASLsN7MUE19ndHVQLnPIDxqFLDl7IROsY81PKzawVAUe4OYVWcGixseWxA==}
     peerDependencies:
       vue: '>=2.7 || >=3'
@@ -914,8 +931,8 @@ packages:
       '@unhead/dom': 1.3.9
       '@unhead/schema': 1.3.9
       '@unhead/ssr': 1.3.9
-      '@unhead/vue': 1.3.9(vue@3.3.4)
-      vue: 3.3.4
+      '@unhead/vue': 1.3.9(vue@2.7.14)
+      vue: 2.7.14
     dev: false
 
   /@vueuse/integrations@10.4.1(fuse.js@6.6.2)(nprogress@0.2.0)(vue@3.3.4):
@@ -981,7 +998,7 @@ packages:
       vue: '>=3.2.0'
     dependencies:
       '@unhead/schema-org-vue': 0.6.0(@unhead/vue@1.3.9)
-      '@vueuse/head': 1.3.1(vue@3.3.4)
+      '@vueuse/head': 1.3.1(vue@2.7.14)
       vue: 3.3.4
     transitivePeerDependencies:
       - '@unhead/vue'
@@ -1151,6 +1168,12 @@ packages:
     dependencies:
       no-case: 2.3.2
       upper-case: 1.1.3
+    dev: false
+
+  /canvas-nest.js@2.0.3:
+    resolution: {integrity: sha512-zL+AN9alP5fl/Ek2gZMpWS4Hoz5jMf1NonYPvdsU5SV++m8/b45EUnTje6GUs1998q6wGISYYRHiWho1JXGM6w==}
+    dependencies:
+      size-sensor: 0.2.6
     dev: false
 
   /chalk@4.1.2:
@@ -2225,6 +2248,10 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
+  /markdown-it-admonition@1.0.4:
+    resolution: {integrity: sha512-+Jow9A7tBSwSuGvQufneeT35o9Cq8+OyR+WAhhC4dOG2NvB2oCeXiaUGGyP9PCRrxQoFxZF+xoVHbo98xYAi+g==}
+    dev: false
+
   /markdown-it-anchor@8.6.7(@types/markdown-it@13.0.1)(markdown-it@13.0.1):
     resolution: {integrity: sha512-FlCHFwNnutLgVTflOYHPW2pPcl2AACqVzExlkGQNsi4CJgqOHN7YTgDd4LuhgN1BFO3TS0vLAruV1Td6dwWPJA==}
     peerDependencies:
@@ -2500,6 +2527,10 @@ packages:
       peberminta: 0.9.0
     dev: false
 
+  /particles.js@2.0.0:
+    resolution: {integrity: sha512-8e0JIqkRbMMPlFBnF9f+92hX1s07jdkd3tqB8uHE9L+cwGGjIYjQM7QLgt0FQ5MZp6SFFYYDm/Y48pqK3ZvJOQ==}
+    dev: false
+
   /pascal-case@3.1.2:
     resolution: {integrity: sha512-uWlGT3YSnK9x3BQJaOdcZwrnV6hPpd8jFH1/ucpiLRPh/2zCVJKS19E4GvYHvaCcACn3foXZ0cLB9Wrx1KGe5g==}
     dependencies:
@@ -2754,6 +2785,10 @@ packages:
       '@polka/url': 1.0.0-next.21
       mrmime: 1.0.1
       totalist: 3.0.1
+    dev: false
+
+  /size-sensor@0.2.6:
+    resolution: {integrity: sha512-0EZ0tXXjyRl9R9+JpoBdH57Xpnbf5NTyDdj7fnFL6KqCsdKyah286ShMflnV2SonnrSFH4OAT/52Jy8qqnoerg==}
     dev: false
 
   /source-map-js@1.0.2:
@@ -3039,7 +3074,7 @@ packages:
       '@types/body-scroll-lock': 3.1.0
       '@vitejs/plugin-vue': 4.3.4(vite@4.4.9)(vue@3.3.4)
       '@vueuse/core': 10.4.1(vue@3.3.4)
-      '@vueuse/head': 1.3.1(vue@3.3.4)
+      '@vueuse/head': 1.3.1(vue@2.7.14)
       '@vueuse/integrations': 10.4.1(fuse.js@6.6.2)(nprogress@0.2.0)(vue@3.3.4)
       '@vueuse/schema-org': 2.2.0(@unhead/vue@1.3.9)(@vueuse/head@1.3.1)(vue@3.3.4)
       body-scroll-lock: 4.0.0-beta.0
@@ -3085,7 +3120,7 @@ packages:
       vite-ssg-sitemap: 0.5.1
       vue: 3.3.4
       vue-i18n: 9.2.2(vue@3.3.4)
-      vue-router: 4.2.4(vue@3.3.4)
+      vue-router: 4.2.4(vue@2.7.14)
       yargs: 17.7.2
     transitivePeerDependencies:
       - '@babel/parser'
@@ -3157,7 +3192,7 @@ packages:
       fast-glob: 3.3.1
       vite: 4.4.9(sass@1.66.1)
       vue: 3.3.4
-      vue-router: 4.2.4(vue@3.3.4)
+      vue-router: 4.2.4(vue@2.7.14)
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -3183,7 +3218,7 @@ packages:
         optional: true
     dependencies:
       '@unhead/dom': 1.3.9
-      '@unhead/vue': 1.3.9(vue@3.3.4)
+      '@unhead/vue': 1.3.9(vue@2.7.14)
       critters: 0.0.20
       fs-extra: 11.1.1
       html-minifier: 4.0.0
@@ -3193,7 +3228,7 @@ packages:
       prettier: 3.0.3
       vite: 4.4.9(sass@1.66.1)
       vue: 3.3.4
-      vue-router: 4.2.4(vue@3.3.4)
+      vue-router: 4.2.4(vue@2.7.14)
       yargs: 17.7.2
     transitivePeerDependencies:
       - bufferutil
@@ -3246,6 +3281,15 @@ packages:
     resolution: {integrity: sha512-AFbieoL7a5LMqcnOF04ji+rpXadgOXnZsxQr//r83kLPr7biP7am3g9zbaZIaBGwBRWeSvoMD4mgPdX3e4NWBg==}
     dev: false
 
+  /vue-canvas-nest@2.0.0(vue@2.7.14):
+    resolution: {integrity: sha512-YUKwbDDEB36NlEvU/Et6S68LaP+RQatEQIJZuL1f0nGIp5h8r+WjsWmwAZK/pt2c7FeXvWWNmuHUcY+539EPbA==}
+    peerDependencies:
+      vue: ^2.x
+    dependencies:
+      canvas-nest.js: 2.0.3
+      vue: 2.7.14
+    dev: false
+
   /vue-demi@0.14.6(vue@3.3.4):
     resolution: {integrity: sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==}
     engines: {node: '>=12'}
@@ -3274,13 +3318,20 @@ packages:
       vue: 3.3.4
     dev: false
 
-  /vue-router@4.2.4(vue@3.3.4):
+  /vue-router@4.2.4(vue@2.7.14):
     resolution: {integrity: sha512-9PISkmaCO02OzPVOMq2w82ilty6+xJmQrarYZDkjZBfl4RvYAlt4PKnEX21oW4KTtWfa9OuO/b3qk1Od3AEdCQ==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
       '@vue/devtools-api': 6.5.0
-      vue: 3.3.4
+      vue: 2.7.14
+    dev: false
+
+  /vue@2.7.14:
+    resolution: {integrity: sha512-b2qkFyOM0kwqWFuQmgd4o+uHGU7T+2z3T+WQp8UBjADfEv2n4FEMffzBmCKNP0IGzOEEfYjvtcC62xaSKeQDrQ==}
+    dependencies:
+      '@vue/compiler-sfc': 2.7.14
+      csstype: 3.1.2
     dev: false
 
   /vue@3.3.4:
