@@ -17,8 +17,7 @@
     "valaxy-addon-lightgallery": "^0.0.2",
     "valaxy-addon-waline": "^0.1.0",
     "valaxy-theme-yun": "0.14.54",
-    "vue": "^3.3.4",
-    "vue-canvas-nest": "^2.0.0"
+    "vue": "^3.3.4"
   },
   "devDependencies": {
     "typescript": "^5.2.2",
