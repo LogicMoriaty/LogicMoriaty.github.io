@@ -4,7 +4,7 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: 'https://www.logicmoriaty.top/',
   lang: 'zh-CN',
-  title: "-Lomori's blog~-",
+  title: "Lomori's blog~",
   subtitle:"~~~~~~~~~~~~~~~~",
   description: 'Per Aspera, Ad Astra——',
   author: {
