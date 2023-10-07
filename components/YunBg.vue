@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import YunBg from 'valaxy-theme-yun/components/YunBg.vue'
-import Sakura from './sakura.vue'
+// import Sakura from './sakura.vue'
 // import particles from './particles.js/particles.vue'
 // import './particles.js/particles'
 // import './particles.js/app'
@@ -14,6 +14,6 @@ import Sakura from './sakura.vue'
 
 <template>
     <YunBg>
-        <Sakura></Sakura>
+        <!-- <Sakura></Sakura> -->
     </YunBg>
 </template>
