@@ -18,10 +18,10 @@ class Sakura {
     draw(cxt) {
         cxt.save();
         // eslint-disable-next-line no-unused-vars
-        var xc = 40 * this.s / 4;
+        var xc = 20 * this.s / 4;
         cxt.translate(this.x, this.y);
         cxt.rotate(this.r);
-        cxt.drawImage(this.img, 0, 0, 40 * this.s, 40 * this.s)
+        cxt.drawImage(this.img, 0, 0, 20 * this.s, 20 * this.s)
         cxt.restore();
     }
     update() {
