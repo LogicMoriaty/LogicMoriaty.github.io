@@ -1,59 +1,69 @@
 // you can custom css vars here
 :root {
-    // 白天模式下文章框的底色
-    --va-c-bg-light: rgba(189,216,214, 0.7);
+  // 白天模式下文章框的底色
+  --va-c-bg-light: rgba(189, 216, 214, 0.7);
 
+  --banner-line-color: #3a3a44;
 
-    --banner-line-color:#3a3a44;
+  // 边栏背景图片
+  //--yun-sidebar-bg-img: url('https://bu.dusays.com/2023/05/09/645a2c3ad4c1a.png');
+  // 边栏背景颜色
+  --yun-sidebar-bg-color: rgba(255, 255, 255, 0);
+}
 
-    // 边栏背景图片
-    //--yun-sidebar-bg-img: url('https://bu.dusays.com/2023/05/09/645a2c3ad4c1a.png');
-    // 边栏背景颜色
-    --yun-sidebar-bg-color: rgba(255, 255, 255, 0);
-  }
-  
 //   首页那条线
-.vertical-line-top, .vertical-line-bottom{
-    background: linear-gradient(#4d73ab 0,#ff7f50 100%);
+.vertical-line-top,
+.vertical-line-bottom {
+  background: linear-gradient(#4d73ab 0, #ff7f50 100%);
 }
 
 // 首页的logo字颜色
 .char {
-    background-color:rgba(255,255,255,0);
-    color: #4d73ab;
+  background-color: rgba(255, 255, 255, 0);
+  color: #4d73ab;
 }
 
 // 中二文字的颜色
 .say {
-    color: #4d73ab;
-    border-top:#4d73ab;
-    border-bottom:#4d73ab;
+  color: #4d73ab;
+  border-top: #4d73ab;
+  border-bottom: #4d73ab;
 }
 
-.dark{
-    --banner-line-color:linear-gradient(#4d73ab 0,#ff7f50 100%);
+.dark {
+  --banner-line-color: linear-gradient(#4d73ab 0, #ff7f50 100%);
 }
-
 
 // 更改夜晚模式下文章框的底色，加一点透明
-html.dark{
-    --va-c-bg-light:rgba(44,61,72, 0.5);
+html.dark {
+  --va-c-bg-light: rgba(44, 61, 72, 0.5);
 }
 
 // 首页白熊的神秘小屋左右两边的背景，让他变透明
 .char-left {
-    border-right:0px solid rgba(255,255,255, 0)
+  border-right: 0px solid rgba(255, 255, 255, 0);
 }
 // 首页白熊的神秘小屋左右两边的背景，让他变透明
 .char-right {
-    border-left:0px solid rgba(255,255,255, 0)
+  border-left: 0px solid rgba(255, 255, 255, 0);
 }
 
 .custom-block.details,
 .custom-block.details {
-    margin: 1rem 0;
-    border-left: 4px solid;
-    padding: 0.1rem 1rem;
-    overflow-x: auto;
-    background-color: rgba(46,204,113,0.3);
+  margin: 1rem 0;
+  border-left: 4px solid;
+  padding: 0.1rem 1rem;
+  overflow-x: auto;
+  background-color: rgba(46, 204, 113, 0.3);
+}
+
+strong {
+  font-family: var(--smc-font-serif);
+  font-weight: 900;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+//   padding: 0;
+  color: #7aa2f7;
+  background-color: #7aa2f7;
+  background-image: linear-gradient(62deg, #87c2fd 0%, #dcb9fc 100%) !important;
 }
