@@ -4,6 +4,7 @@ title: try
 date: 2023-09-02
 updated: 2023-09-02
 categories: Valaxy 笔记
+cover: https://cdn.jsdelivr.net/gh/LogicMoriaty/source/images/07.jpg
 tags:
   - 笔记
   - Valaxy
