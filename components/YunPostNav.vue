@@ -78,6 +78,7 @@ const [prev, next] = usePrevNext()
     overflow: hidden;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    
 
 
     // height: 675px;
@@ -90,8 +91,8 @@ const [prev, next] = usePrevNext()
 
     &-item {
         width: 100%;
-        display: inline-flex;
-        // display: flex;
+        // display: inline-flex;
+        display: flex;
         // justify-content: center;
         // align-items: center;
 
@@ -221,7 +222,7 @@ const [prev, next] = usePrevNext()
 
         .title {
             overflow: hidden;
-            max-width: 20rem;
+            max-width: 15rem;
             position: absolute;
             /*绝对布局*/
             z-index: 1;
@@ -242,6 +243,7 @@ const [prev, next] = usePrevNext()
             // display: flex;
             // align-items: center;
             // justify-content: center;
+            
 
         }
 
