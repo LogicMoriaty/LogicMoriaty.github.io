@@ -319,5 +319,19 @@ const [prev, next] = usePrevNext()
         }
     }
 }
+
+@include mobile {
+    .post-nav {
+        flex-direction: column;
+
+        &-prev,
+        &-next {
+            .title {
+                max-width: 28rem;
+            }
+        }
+    }
+}
+
 </style>
   
