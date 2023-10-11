@@ -12,8 +12,10 @@ top: 1
 ---
 # 李群的定义和线性表示
 ## 李群的定义
-::: note **李群**
+::: warning 李群
+
 李群 $G$ 是一种特殊的**连续群**，群元 $g$ 可以用 $r$ 个独立实参数 $\alpha \equiv (\alpha_{1}, \alpha_{2},\dots,\alpha _{r})$ 来标记： $g(\alpha)\equiv g(\alpha_{1}, \alpha_{2},\dots,\alpha _{r})$。
+
 :::
 
 参数 $\alpha$ 可以在有限或无限范围内连续变化， $\alpha$ 的所有取值构成一个参数空间，称为 **群参数空间**。
@@ -29,18 +31,21 @@ $$
    
    
 3. **存在恒元 $g(\alpha_{0})$**：群参数空间中存在参数 $\alpha_{0}$，使得对任意群参数 $\alpha$ 都有
-   $$
+$$
 g(\alpha) = g(\alpha_{0})g(\alpha) = g(\alpha)g(\alpha_{0})
 $$
+
 也即
+
 $$
 \alpha = f(\alpha_{0}, \alpha) = f(\alpha, \alpha_{0})
 $$
 
 4. **存在逆元**：对于任意群参数 $\alpha$, 存在群参数 $\bar{\alpha}$，使得：
-   $$
+$$
 g(\alpha)g(\bar{\alpha}) = g(\bar{\alpha})g(\alpha) = g(\alpha_{0})
 $$
+
 $$
 \alpha_{0} = f(\alpha,\bar{\alpha}) = f(\bar{\alpha}, \alpha)
 $$
@@ -122,8 +127,8 @@ $$
 
 ## 生成元的线性无关性
 
-::: note 生成元的线性无关性
-**$r$ 阶李群的生成元是线性无关的。
+::: warning 生成元的线性无关性
+**$r$ 阶李群的生成元是线性无关的。**
 :::
 
 ---
@@ -148,18 +153,22 @@ $$
 
 ### $GL(2, R)$ 群：2 维空间实线性变换群
 表示矩阵为：
+
 $$
 D(\alpha) = \begin{bmatrix}
 \alpha_{1} & \alpha_{2} \\
 \alpha_{3} & \alpha_{4} 
 \end{bmatrix}, \quad \det D(\alpha)\neq 0
 $$
+
 在计算生成元之前，先要确定恒元对应的群参数 $\alpha_{0}$ 的取值， $GL(2,R)$ 群有四个独立的群参数，恒元是二阶的单位矩阵，所以相应地： $\alpha_{0} = (\alpha _{01},\alpha _{02}, \alpha _{03}, \alpha _{04}) = (1, 0 ,0, 1)$。
 
 根据生成元的定义
+
 $$
 I_k=\left.\frac{\partial D(\alpha)}{\partial\alpha_k}\right|_{\alpha=\alpha_0}
 $$
+
 有
 $$
 \begin{align}
