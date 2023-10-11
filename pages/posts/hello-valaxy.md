@@ -3,7 +3,7 @@ title: Hello, 记录网站上的第一篇blog!
 date: 2023-09-02
 updated: 2023-09-02
 categories: Valaxy 笔记
-cover: https://cdn.jsdelivr.net/gh/LogicMoriaty/source/card1/img(8).webp
+cover: https://cdn.jsdelivr.net/gh/LogicMoriaty/source/card1/img(88).webp
 tags:
   - valaxy
   - 笔记
