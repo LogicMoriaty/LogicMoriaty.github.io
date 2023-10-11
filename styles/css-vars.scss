@@ -99,7 +99,7 @@ div.yun-post-list img.object-cover {
   // width: 899.33px;
   // height: 360px;
 
-  transition: filter 375ms ease-in .2s, transform .6s;
+  transition: all 0.6s, filter 375ms ease-in 0.2s;
   object-fit: cover;
   
   &:hover{
