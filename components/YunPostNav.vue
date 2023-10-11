@@ -267,7 +267,7 @@ const [prev, next] = usePrevNext()
                 box-shadow: 0 0 15px rgba(black, 0.1);
                 opacity: 0.8;
                 transform: scale(1.1);
-                
+
             }
 
 
@@ -323,6 +323,10 @@ const [prev, next] = usePrevNext()
 @include mobile {
     .post-nav {
         flex-direction: column;
+        height: 20rem;
+        overflow: hidden;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
 
         &-prev,
         &-next {
@@ -332,6 +336,5 @@ const [prev, next] = usePrevNext()
         }
     }
 }
-
 </style>
   
