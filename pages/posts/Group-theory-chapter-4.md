@@ -12,10 +12,8 @@ top: 1
 ---
 # 李群的定义和线性表示
 ## 李群的定义
-::: warning 李群
-
+::: note **李群**
 李群 $G$ 是一种特殊的**连续群**，群元 $g$ 可以用 $r$ 个独立实参数 $\alpha \equiv (\alpha_{1}, \alpha_{2},\dots,\alpha _{r})$ 来标记： $g(\alpha)\equiv g(\alpha_{1}, \alpha_{2},\dots,\alpha _{r})$。
-
 :::
 
 参数 $\alpha$ 可以在有限或无限范围内连续变化， $\alpha$ 的所有取值构成一个参数空间，称为 **群参数空间**。
@@ -31,21 +29,18 @@ $$
    
    
 3. **存在恒元 $g(\alpha_{0})$**：群参数空间中存在参数 $\alpha_{0}$，使得对任意群参数 $\alpha$ 都有
-$$
+   $$
 g(\alpha) = g(\alpha_{0})g(\alpha) = g(\alpha)g(\alpha_{0})
 $$
-
 也即
-
 $$
 \alpha = f(\alpha_{0}, \alpha) = f(\alpha, \alpha_{0})
 $$
 
 4. **存在逆元**：对于任意群参数 $\alpha$, 存在群参数 $\bar{\alpha}$，使得：
-$$
+   $$
 g(\alpha)g(\bar{\alpha}) = g(\bar{\alpha})g(\alpha) = g(\alpha_{0})
 $$
-
 $$
 \alpha_{0} = f(\alpha,\bar{\alpha}) = f(\bar{\alpha}, \alpha)
 $$
@@ -127,8 +122,8 @@ $$
 
 ## 生成元的线性无关性
 
-::: warning 生成元的线性无关性
-**$r$ 阶李群的生成元是线性无关的。**
+::: note 生成元的线性无关性
+**$r$ 阶李群的生成元是线性无关的。
 :::
 
 ---
@@ -153,22 +148,18 @@ $$
 
 ### $GL(2, R)$ 群：2 维空间实线性变换群
 表示矩阵为：
-
 $$
 D(\alpha) = \begin{bmatrix}
 \alpha_{1} & \alpha_{2} \\
 \alpha_{3} & \alpha_{4} 
 \end{bmatrix}, \quad \det D(\alpha)\neq 0
 $$
-
 在计算生成元之前，先要确定恒元对应的群参数 $\alpha_{0}$ 的取值， $GL(2,R)$ 群有四个独立的群参数，恒元是二阶的单位矩阵，所以相应地： $\alpha_{0} = (\alpha _{01},\alpha _{02}, \alpha _{03}, \alpha _{04}) = (1, 0 ,0, 1)$。
 
 根据生成元的定义
-
 $$
 I_k=\left.\frac{\partial D(\alpha)}{\partial\alpha_k}\right|_{\alpha=\alpha_0}
 $$
-
 有
 $$
 \begin{align}
@@ -180,22 +171,125 @@ $$
 $$
 
 ### $GL(n, R)$ 群： $n$ 维空间实线性变换群
+表示矩阵为： 
+$$
+D(\alpha) = \begin{bmatrix}
+\alpha _{11} & \dots & \alpha _{1n} \\
+\vdots &   & \vdots \\
+\alpha _{n 1} & \dots & \alpha _{nn}
+\end{bmatrix}, \quad \det D(\alpha)\neq 0
+$$
+共 $n^{2}$ 个群参数。恒元对应的群参数的取值为
+$$
+\alpha_{0} = \begin{bmatrix}
+1 &   &   \\
+  & \ddots &   \\
+  &   & 1
+\end{bmatrix}, \quad \alpha _{0ij} = \delta _{ij}
+$$
 
+生成元为
+$$
+I_{ij} = \left. \frac{\partial D(\alpha)}{\partial  \alpha _{ij}}\right|_{\alpha = \alpha_{0}} = \begin{bmatrix}
+0 & \dots  & 0 \\
+\vdots & 1  & \vdots \\ \\
+  & \text{(i行 j列)}  &   \\
+0 & \dots & 0
+\end{bmatrix}, \quad [I_{ij}]_{pq} = \delta _{ip}\delta _{jq}
+$$
+
+生成元 $I_{ij}$ 的 $i$ 行 $j$ 列为 1，其它矩阵元为 0.
+
+::: warning $GL(n, R)$ 群的生成元之间的对易关系
+$$
+[I_{ij}, I_{kl}] = \delta _{jk}I_{il} - \delta _{il}I_{kj}
+$$
+
+:::
 
 
 ### 二维实特殊线性变换群： $SL(2, R)$ 群（**3 阶非紧致李群**）
+表示矩阵为： 
+$$
+D(\alpha) = \begin{bmatrix}
+\alpha_{1} &  \alpha_{2} \\
+\alpha_{3} &  \alpha_{4}
+\end{bmatrix}, \quad \det D(\alpha) = 1 \to \alpha_{4} = \frac{1 + \alpha_{2} \alpha_{3}}{\alpha_{1}}
+$$
+
+$$
+D(\alpha_{0}) = \begin{bmatrix}
+1  &  0 \\
+0  & 1
+\end{bmatrix}, \quad \alpha_{0}  = (1, 0, 0)
+$$
 
 
 
 ###  $SO(3)$ 群（**3 阶紧致李群**）
+$So(3)$ 群元用三个参数 $\varphi, \theta, \omega$ 表示
+$$
+C_{\hat{n}(\theta,\varphi)}(\omega)=S(\varphi,\theta)C_{\mathbf{k}}(\omega)S(\varphi,\theta)^{-1}
+$$
+从上式可以看出，当 $\omega = 0$ 时，无论 $\varphi$ 和 $\theta$ 取什么值，群元都为 $E$，也就是说，在恒元附近，参数 $\alpha = (\theta, \varphi, \omega)$ 与恒元 $E$ 附近的群元不是一一对应的，存在不止一组 $\alpha_{0}$ 与恒元对应。因此，这组参数不能用来求李群线性表示的生成元。
 
 
 ### 二维特殊幺正变换群： $SU(2)$ 群（**3 阶紧致李群**）
+$$
+D(\alpha) = \begin{bmatrix}
+a & b \\
+c & d 
+\end{bmatrix}, \quad D^{\dagger}D = E, \quad\det D(\alpha) = 1
+$$
+每个矩阵元均有实部与虚部，因此共有 8 个实参数。
+但是幺正条件和行列式为 1 的条件，分别给出 $2^{2}$ 和 1 个约束方程。
+所以 $SU(2)$ 群只有 $2\times 2^{2} - 2^{2} - 1 = 3$ 个对立实参数，是 3 阶李群。
+
 
 
 ## 有限群元的生成
+设 $D (0) = E,\alpha \ll 1$，生成元为 $I_{k}$。在前面的讨论中，我们知道此时可以将表示矩阵在恒元附近展开：
+$$
+D(\alpha) = E + \alpha _{k}I_{k}
+$$
+
+以 $SO(2)$ 群为例，来看看如何由生成元生成有限群元。
+
+$SO(2)$  群只有一个独立的群参数 $\theta$，与恒元对应的群参数的取值为 $\theta = 0$，取  $\delta \theta \to 0$，则
+$$
+D(\delta \theta) = E + \delta \theta I
+$$
+可以通过如下方式定义 $\delta \theta$， $SO(2)$ 群的群元代表在二维平面内的转动，那么一个有限的转动可以被分解为无穷多个无穷小转动的叠加，因此 $\delta \theta = \frac{\theta}{N}$，其中 $N\gg 1$，群元 $D(\theta)$ 可以表示为：
+$$
+D(\theta) = (D(\delta\theta))^{N} \doteq (E + I\delta \theta )^{N}
+$$
+上式在 $N\to \infty$ 时取等号，即：
+$$
+D(\theta) = \lim_{ N \to \infty } \left( E + \frac{\theta}{N}I \right)^{N}
+$$
+
+我们知道 ： $\lim_{ N \to \infty }\left ( 1 + \frac{\alpha}{N} \right)^{N} = e^{\alpha}$，因此可得：
+$$
+D(\theta) = e^{\theta I}
+$$
+
+同理，当李群有多个独立的群参数时，
+ $D (\alpha) = e^{\alpha _{i} I_{i}}$
+
+对于 $SO(2)$ 群，有限转动 $D(\theta)$ 可由无穷小转动变换生成：
+$$
+D(\theta) = e^{\theta I} = \exp(\theta \begin{bmatrix}
+  & -1 \\
+1 &   
+\end{bmatrix}) = \begin{bmatrix}
+\cos \theta & -\sin \theta \\
+\sin \theta  & \cos \theta 
+\end{bmatrix}
+$$
 
 
-## $SO(3)$ 群的欧拉角 $(\alpha, \beta, \gamma)$ （了解）
+
+
+
 
 
