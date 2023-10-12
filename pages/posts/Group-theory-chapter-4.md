@@ -1,7 +1,7 @@
 ---
 share: "true"
 title: 群论笔记——第四章 李群与李代数
-cover: https://cdn.jsdelivr.net/gh/LogicMoriaty/source/card1/img(93).webp
+cover: https://cdn.jsdelivr.net/gh/LogicMoriaty/source/card1/img(3).webp
 date: 2023-10-11
 updated: 2023-10-11
 categories: 群论

@@ -339,4 +339,3 @@ const [prev, next] = usePrevNext()
     }
 }
 </style>
-  
