@@ -12,7 +12,7 @@ top: 1
 ---
 # 李群的定义和线性表示
 ## 李群的定义
-::: warning **李群**
+::: warning 李群
 李群 $G$ 是一种特殊的**连续群**，群元 $g$ 可以用 $r$ 个独立实参数 $\alpha \equiv (\alpha_{1}, \alpha_{2},\dots,\alpha _{r})$ 来标记： $g(\alpha)\equiv g(\alpha_{1}, \alpha_{2},\dots,\alpha _{r})$。
 :::
 
@@ -210,7 +210,7 @@ $$
 
 生成元 $I_{ij}$ 的 $i$ 行 $j$ 列为 1，其它矩阵元为 0.
 
-::: warning $GL(n, R)$ 群的生成元之间的对易关系
+::: warning  GL (n, R) 群的生成元之间的对易关系
 $$
 [I_{ij}, I_{kl}] = \delta _{jk}I_{il} - \delta _{il}I_{kj}
 $$
