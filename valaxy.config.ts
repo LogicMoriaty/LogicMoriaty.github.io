@@ -24,6 +24,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
+      // title: ['Lomori','的','秘','密','小','站'],
       title: ['Lomori','的','秘','密','小','站'],
       cloud: {
         enable: true,
@@ -44,7 +45,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     // 网页背景
     bg_image: {
       enable: true,
-      url: "https://cdn.jsdelivr.net/gh/LogicMoriaty/source/day/107236405_p2.webp",	// 白日模式背景
+      url: "https://cdn.jsdelivr.net/gh/LogicMoriaty/source/day/dayimg(2).webp",	// 白日模式背景
       dark: "https://cdn.jsdelivr.net/gh/LogicMoriaty/source/night/112094960_p0_master1200.webp",	// 夜间模式背景
     //   这个是透明度
       opacity: 0.6,
