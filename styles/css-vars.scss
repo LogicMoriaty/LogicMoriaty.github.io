@@ -119,9 +119,11 @@ div.yun-post-list img.object-cover {
   box-shadow: 5px 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
-body {
-  height: 100vh;
-  overflow-y: scroll;
-  background-repeat: no-repeat;
-  background-position: center top;
+@media only screen and (max-device-width: 767px) {
+  body {
+    height: 100vh;
+    // overflow-y: scroll;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
 }
