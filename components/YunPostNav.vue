@@ -43,7 +43,7 @@ const [prev, next] = usePrevNext()
             <router-link v-if="prev" class="post-nav-prev" :to="prev.path || ''" :title="prev.title"
                 :data-background-image="prev.cover || ''">
                 <!-- <div class="blackback"></div> -->
-                <img v-if="prev.cover" :src="prev.cover" class="background-image">
+                <img v-if="prev.cover" :src="prev.cover" alt = "上一篇" class="background-image">
                 <div class="icon" i-ri-arrow-left-s-line></div>
                 <span class="title truncate" text="sm">
                     <h3>{{ prev.title }}</h3>
@@ -55,7 +55,7 @@ const [prev, next] = usePrevNext()
         <div class="post-nav-item">
             <router-link v-if="next" :to="next.path || ''" :title="next.title" class="post-nav-next"
                 :data-background-image="next.cover || ''">
-                <img v-if="next.cover" :src="next.cover" class="background-image">
+                <img v-if="next.cover" :src="next.cover" alt = "下一篇" class="background-image" >
                 <span class="title truncate" text="sm">
                     <h3>{{ next.title }}</h3>
                 </span>
@@ -78,7 +78,7 @@ const [prev, next] = usePrevNext()
     overflow: hidden;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    
+
 
 
     // height: 675px;
@@ -108,60 +108,7 @@ const [prev, next] = usePrevNext()
         // transition: 0.4s;
         transition: all 0.6s, filter 375ms ease-in 0.2s;
 
-        // a {
 
-        //     // display: flex;
-        //     // flex-direction: column;
-        //     // height: 100%;
-        //     // color: var(--header-text-color);
-        //     // padding: 1.25rem 2.5rem;
-        //     // background-size: cover;
-        //     // position: relative;
-
-        //     // &:hover {
-        //     //     // background-color: rgba(var(--va-c-primary-rgb), 0.1);
-        //     //     box-shadow: 0 0 15px rgba(black, 0.1);
-        //     //     opacity: .4;
-        //     // }
-
-        //     // background: linear-gradient(135deg, #434343, #000);
-        //     // opacity: .5;
-
-        //     // &::before {
-        //     //     content: "";
-        //     //     position: absolute;
-        //     //     width: 100%;
-        //     //     height: 100%;
-        //     //     background: linear-gradient(135deg, #434343, #000);
-        //     //     opacity: .1;
-        //     //     // the-transition();
-        //     //     z-index: -1;
-        //     //     top: 0;
-        //     //     left: 0;
-        //     // }
-
-
-
-        //     // &:hover {
-        //     //     // background-color: rgba(var(--va-c-primary-rgb), 0.1);
-        //     //     box-shadow: 0 0 15px rgba(black, 0.1);
-        //     //     opacity: .4;
-
-        //     //     &::before {
-        //     //         content: "";
-        //     //         position: absolute;
-        //     //         width: 100%;
-        //     //         height: 100%;
-        //     //         background: linear-gradient(135deg, #434343, #000);
-        //     //         opacity: .5;
-        //     //         // the-transition();
-        //     //         z-index: -1;
-        //     //         top: 0;
-        //     //         left: 0;
-        //     //         // opacity: .4;
-        //     //     }
-
-        // }
     }
 
     &-prev {
@@ -173,6 +120,8 @@ const [prev, next] = usePrevNext()
         span,
         h3 {
             // align-self: flex-start;
+            // height: 4rem;
+            // max-width: 20rem;
             display: flex;
             flex-wrap: wrap;
             align-self: center;
@@ -180,8 +129,8 @@ const [prev, next] = usePrevNext()
             font-family: 'Times New Roman', Times, sans-serif;
             font-weight: bold;
             color: aliceblue;
-            // word-wrap: break-word;
-            // word-break: break-all;
+            word-wrap: break-word;
+            word-break: break-all;
         }
     }
 
@@ -222,6 +171,7 @@ const [prev, next] = usePrevNext()
 
         .title {
             overflow: hidden;
+            white-space: pre-line;
             max-width: 15rem;
             position: absolute;
             /*绝对布局*/
@@ -231,7 +181,7 @@ const [prev, next] = usePrevNext()
             flex-direction: column;
             // height: 100%;
             // // color: var(--header-text-color);
-            // padding: 1.25rem 2.5rem;
+            padding: 1.25rem 1rem;
             background-size: cover;
             // // position: relative;
             // flex: 1;
@@ -243,7 +193,7 @@ const [prev, next] = usePrevNext()
             // display: flex;
             // align-items: center;
             // justify-content: center;
-            
+
 
         }
 
@@ -316,7 +266,7 @@ const [prev, next] = usePrevNext()
         &-prev,
         &-next {
             .title {
-                max-width: 28rem;
+                max-width: 20rem;
             }
         }
     }
@@ -332,8 +282,19 @@ const [prev, next] = usePrevNext()
 
         &-prev,
         &-next {
+            // width: 100%;
+
+            height: 10rem;
+            // display: flex;
+            // flex-wrap: wrap; // 强制换行
+            overflow: hidden;
+
             .title {
-                max-width: 28rem;
+                // height: 4rem;
+                display: flex;
+                overflow: hidden;
+                max-width: 20rem;
+                white-space: pre-line;
             }
         }
     }

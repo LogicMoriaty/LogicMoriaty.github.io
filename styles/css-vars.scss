@@ -88,9 +88,7 @@ html.dark {
   background-color: rgba(46, 204, 113, 0.3);
 }
 
-
 div.yun-post-list img.object-cover {
-  
   min-width: 360px;
   // max-width: 320px;
   // height: 54;
@@ -99,12 +97,23 @@ div.yun-post-list img.object-cover {
   // width: 899.33px;
   // height: 360px;
 
-  transition: all 0.6s, filter 375ms ease-in 0.2s;
+  transition:
+    all 0.6s,
+    filter 375ms ease-in 0.2s;
   object-fit: cover;
-  
-  &:hover{
+
+  &:hover {
     transform: scale(1.1);
   }
   overflow: hidden;
 }
 
+.sidebar {
+  backdrop-filter: blur(2px);
+  // box-shadow: 0 0 30px 10px rgba(0, 0, 0, .3);
+  box-shadow: 5px 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.yun-bg{
+  height: 100vh;
+}
