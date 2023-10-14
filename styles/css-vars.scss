@@ -3,7 +3,7 @@
   // 白天模式下文章框的底色
   --va-c-bg-light: rgba(189, 216, 214, 0.7);
 
-  --banner-line-color: #3a3a44;
+  // --banner-line-color: #3a3a44;
 
   // 边栏背景图片
   //   --yun-sidebar-bg-img: url('https://bu.dusays.com/2023/05/09/645a2c3ad4c1a.png');
@@ -26,11 +26,11 @@
 }
 
 // 中二文字的颜色
-.say {
-  color: #4d73ab;
-  border-top: #4d73ab;
-  border-bottom: #4d73ab;
-}
+// .say {
+//   color: #4d73ab;
+//   border-top: #4d73ab;
+//   border-bottom: #4d73ab;
+// }
 
 .dark {
   --banner-line-color: linear-gradient(#4d73ab 0, #ff7f50 100%);
