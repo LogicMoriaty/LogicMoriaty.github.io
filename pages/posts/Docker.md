@@ -179,8 +179,8 @@ ssh -p 1234 root@0.0.0.0
 
 ## 踩坑
 用 VScode 远程连接 docker 失败，更改 ssh 的环境变量路径，将 Openssh，改为 git 里的 ssh。
-![ssh 环境变量|400](../../source/images/ssh环境变量.png)
+![ssh 环境变量|400](../../source/images/sshpath.png)
 添加 git 的路径后，可以将 git 的路径移到 openssh 的上面。也可以把底下那个 openssh 删掉，然后添加上面 git 的路径。
 
 然后 VScode 的 settings. json 文件里添加上 ssh 的路径。
-![|500](../../source/images/sshVScode路径.png)
+![|500](../../source/images/sshVScodepath.png)
