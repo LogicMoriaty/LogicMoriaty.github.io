@@ -4,12 +4,13 @@ title: 引力波数据探索-Docker的使用入门
 cover: https://cdn.jsdelivr.net/gh/LogicMoriaty/source/card1/img(13).webp
 date: 2023-11-16
 updated: 2023-11-16
-categories: 引力波数据探索 笔记 Docker
+categories: 引力波数据探索
 tags:
   - 引力波数据探索
   - 笔记
   - Docker
 top: 1
+description: 很简单的Docker入门，以及在使用过程中踩到的坑~
 ---
 # Docker 的安装
 - Docker 是一个开源的商业产品，有两个版本：社区版（Community Edition，缩写为 CE）和企业版（Enterprise Edition，缩写为 EE）。
@@ -103,6 +104,23 @@ ENTRYPOINT ["bash", "setup.sh"]
 
 可以自己打包一个镜像，然后发布。
 
+```shell
+#!/bin/bash
+sudo docker build -t ictp_ap_jupyter .
+```
+
+```shell
+$sudo docker stop [containerID]	# 终止容器运行
+
+# 标注用户名和版本
+$sudo docker tag [imageName] [username]/[respository]:[tag]
+
+# 发布image文件
+$sudo docker image push [username]/[respository]:[tag]
+```
+
+发布之后，去这个网站 [Docker](https://hub.docker.com/repository/docker/iphysresearch/ictp_ap_jupyter/general) 查看效果（需要魔法）。
+
 想要自己构建一个 docker，写 dockerfile 的代码的话，可以去 github 上搜索 dockerfile，然后参考别人写的代码，一点点的构建。
 
 # Python / Jupyter 开发环境搭建
@@ -157,7 +175,7 @@ nohup jupyter-lab \
 
 ## 远程连接 VScode
 在 VScode 里安装 Remote-SSH 插件，然后点连接到主机
-![](../../source/images/Docker.png)
+![](../../source/images/Docker 1.png)
 然后选择配置 SSH 主机，选择~/. ssh/config 配置文件，加入下面的代码
 ```config
 # ~/.ssh/config
@@ -184,3 +202,4 @@ ssh -p 1234 root@0.0.0.0
 
 然后 VScode 的 settings. json 文件里添加上 ssh 的路径。
 ![|500](../../source/images/sshVScodepath.png)
+
