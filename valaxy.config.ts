@@ -5,6 +5,13 @@ import { addonLightGallery } from 'valaxy-addon-lightgallery';
 import { addonComponents } from 'valaxy-addon-components';
 // import particlesJS from 'particles.js'
 // import app from './app.js'
+import MarkdownIt from "markdown-it";
+import { imgLazyload } from "@mdit/plugin-img-lazyload";
+
+const mdIt = MarkdownIt().use(imgLazyload); //图片懒加载
+
+mdIt.render("![Image](https://example.com/image.png)");
+
 
 
 
@@ -25,7 +32,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     banner: {
       enable: true,
       // title: ['Lomori','的','秘','密','小','站'],
-      title: ['Lomori','的','秘','密','小','站'],
+      title: ['循','此','苦','旅','直','抵','群','星'],
       cloud: {
         enable: true,
       },

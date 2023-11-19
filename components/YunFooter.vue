@@ -29,7 +29,7 @@ useScriptTag('//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js')
                 <span>本站已运行</span>
             </template>
             <template #live-time-after>
-                <span>后缀</span>
+                <span>~~</span>
             </template>
         </VCLiveTime>
     </YunFooter>
