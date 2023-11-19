@@ -10,7 +10,7 @@ tags:
   - 笔记
   - Docker
 top: 1
-description: 很简单的Docker入门，以及在使用过程中踩到的坑~
+excerpt: 很简单的Docker入门，以及在使用过程中踩到的坑~
 ---
 # Docker 的安装
 - Docker 是一个开源的商业产品，有两个版本：社区版（Community Edition，缩写为 CE）和企业版（Enterprise Edition，缩写为 EE）。
