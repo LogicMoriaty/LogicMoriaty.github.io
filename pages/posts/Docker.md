@@ -110,13 +110,13 @@ sudo docker build -t ictp_ap_jupyter .
 ```
 
 ```shell
-$sudo docker stop [containerID]	# 终止容器运行
+$ sudo docker stop [containerID]	# 终止容器运行
 
 # 标注用户名和版本
-$sudo docker tag [imageName] [username]/[respository]:[tag]
+$ sudo docker tag [imageName] [username]/[respository]:[tag]
 
 # 发布image文件
-$sudo docker image push [username]/[respository]:[tag]
+$ sudo docker image push [username]/[respository]:[tag]
 ```
 
 发布之后，去这个网站 [Docker](https://hub.docker.com/repository/docker/iphysresearch/ictp_ap_jupyter/general) 查看效果（需要魔法）。
