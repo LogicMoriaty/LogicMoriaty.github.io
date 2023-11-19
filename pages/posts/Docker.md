@@ -27,28 +27,28 @@ description: 很简单的Docker入门，以及在使用过程中踩到的坑~
 
 ``` shell
 # 安装完成后，运行下面的命令，验证是否安装成功。
-$docker version
-$docker info
+$ docker version
+$ docker info
 
 # 如果 docker 服务没有启动，可以用下面的命令启动
 # 以下命令仅适用于 Linux 系统 service 命令的用法
-$sudo service docker start
+$ sudo service docker start
 
 # systemctl 命令的用法 (RHEL7/Centos7)
-$sudo systemctl start docker
+$ sudo systemctl start docker
 ```
 
 
 ## Docker 的 Hello World 示例
 ```shell
 # 抓取官方的 hello-world 镜像：
-$sudo docker image pull hello-world
+$ sudo docker image pull hello-world
 
 # 查看
-$sudo docker images
+$ sudo docker images
 
 # 运行这个 image 文件。
-$sudo docker container run hello-world
+$ sudo docker container run hello-world
 
 # Hello from Docker!
 # This message shows that your installation appears to be working correctly.
@@ -59,11 +59,11 @@ $sudo docker container run hello-world
 ---
 
 ```shell
-$sudo docker images	# 查看本机所有的镜像
-$sudo docker ps -a	# 查看本机所有的容器
+$ sudo docker images	# 查看本机所有的镜像
+$ sudo docker ps -a	# 查看本机所有的容器
 
-$sudo docker rm [containerID]	# 删除容器
-$sudo docker image rm [imageID]	# 删除镜像
+$ sudo docker rm [containerID]	# 删除容器
+$ sudo docker image rm [imageID]	# 删除镜像
 ```
 ---
 
