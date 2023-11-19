@@ -10,7 +10,7 @@ tags:
   - 笔记
   - Linux
 top: 1
-descript: 引力波数据探索Linux学习笔记总结，Linux的基础命令总结~
+excerpt: 引力波数据探索Linux学习笔记总结，Linux的基础命令总结~
 ---
 本节为[第一章编程开发环境与工作流]( https://slides.com/iphysresearch/gwda_coding_1#/2/4 ) 的 Linux 部分的学习总结笔记（需要魔法才能打开~）
 # 执行 Linux 命令的必备知识
