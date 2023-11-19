@@ -7,10 +7,31 @@ import { addonComponents } from 'valaxy-addon-components';
 // import app from './app.js'
 import MarkdownIt from "markdown-it";
 import { imgLazyload } from "@mdit/plugin-img-lazyload";
+import { figure } from "@mdit/plugin-figure";
+import { mark } from "@mdit/plugin-mark";
+import { tasklist } from "@mdit/plugin-tasklist";
 
-const mdIt = MarkdownIt().use(imgLazyload); //图片懒加载
 
-mdIt.render("![Image](https://example.com/image.png)");
+const mdIt1 = MarkdownIt().use(imgLazyload); //图片懒加载
+mdIt1.render("![Image](https://example.com/image.png)");
+
+
+const mdIt2 = MarkdownIt().use(figure, {
+  // 你的选项，可选的
+}); //图片标题
+mdIt2.render("![image](https://example.com/image.png)");
+
+
+const mdIt3 = MarkdownIt().use(mark);//双等号高亮文字
+mdIt3.render("VuePress Theme Hope is ==powerful==.");
+
+const mdIt4 = MarkdownIt().use(tasklist, {
+  // your options, optional
+});
+mdIt4.render(`\
+- [x] task 1
+- [ ] task 2
+`);
 
 
 

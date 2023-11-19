@@ -69,6 +69,8 @@
 html.dark {
   --va-c-bg-light: rgba(44, 61, 72, 0.5);
   //   --yun-sidebar-bg-color: rgba(255, 255, 255, 0);
+  --smc-c-primary: rgba(93, 240, 100, 0.982);
+  --smc-link-color: rgba(93, 240, 100, 0.982);
 }
 
 // 首页白熊的神秘小屋左右两边的背景，让他变透明
@@ -117,6 +119,10 @@ div.yun-post-list img.object-cover {
   backdrop-filter: blur(2px);
   // box-shadow: 0 0 30px 10px rgba(0, 0, 0, .3);
   box-shadow: 5px 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.yun-card{
+  backdrop-filter: blur(2px);
 }
 
 @media only screen and (max-device-width: 767px) {

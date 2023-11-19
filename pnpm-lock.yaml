@@ -13,7 +13,7 @@ dependencies:
     version: 2.0.0
   valaxy:
     specifier: 0.15.6
-    version: 0.15.6(@types/markdown-it@13.0.2)(@unhead/shared@1.7.4)(postcss@8.4.31)(typescript@5.2.2)(unhead@1.7.4)
+    version: 0.15.6(@types/markdown-it@13.0.6)(@unhead/shared@1.7.4)(postcss@8.4.31)(typescript@5.2.2)(unhead@1.7.4)
   valaxy-addon-lightgallery:
     specifier: ^0.0.2
     version: 0.0.2
@@ -28,7 +28,19 @@ dependencies:
     version: 3.3.4
 
 devDependencies:
+  '@mdit/plugin-figure':
+    specifier: ^0.6.5
+    version: 0.6.5(markdown-it@13.0.2)
   '@mdit/plugin-img-lazyload':
+    specifier: ^0.6.5
+    version: 0.6.5(markdown-it@13.0.2)
+  '@mdit/plugin-img-mark':
+    specifier: ^0.6.5
+    version: 0.6.5(markdown-it@13.0.2)
+  '@mdit/plugin-mark':
+    specifier: ^0.6.5
+    version: 0.6.5(markdown-it@13.0.2)
+  '@mdit/plugin-tasklist':
     specifier: ^0.6.5
     version: 0.6.5(markdown-it@13.0.2)
   typescript:
@@ -453,8 +465,60 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
+  /@mdit/plugin-figure@0.6.5(markdown-it@13.0.2):
+    resolution: {integrity: sha512-bwgOB3noaJ9CEWdQkIdpkCbxVdv+amS/KkmzeGxK/ut3vflyppeVSif/aiFX9Jo3Y3RZqe3xXajQ7E7bs9DGjQ==}
+    engines: {node: '>= 18'}
+    peerDependencies:
+      markdown-it: ^13.0.2
+    peerDependenciesMeta:
+      markdown-it:
+        optional: true
+    dependencies:
+      '@types/markdown-it': 13.0.6
+      markdown-it: 13.0.2
+    dev: true
+
   /@mdit/plugin-img-lazyload@0.6.5(markdown-it@13.0.2):
     resolution: {integrity: sha512-Bed8x88W3boXEOtWDvADqLeJ4rbTxJgpHt882eycGbYGHD6Q4mtJnZOfT1GYrxiPpHtZTpxtGR1AkOV5gW3X0A==}
+    engines: {node: '>= 18'}
+    peerDependencies:
+      markdown-it: ^13.0.2
+    peerDependenciesMeta:
+      markdown-it:
+        optional: true
+    dependencies:
+      '@types/markdown-it': 13.0.6
+      markdown-it: 13.0.2
+    dev: true
+
+  /@mdit/plugin-img-mark@0.6.5(markdown-it@13.0.2):
+    resolution: {integrity: sha512-qlD/9Kd6EJRdP4pRkg24RffMWsbBOGbwIJiDwFoDtSYO/z0UN3NEZTC603TjufP2lAb4Vqgkq4X1pkV14/28kw==}
+    engines: {node: '>= 18'}
+    peerDependencies:
+      markdown-it: ^13.0.2
+    peerDependenciesMeta:
+      markdown-it:
+        optional: true
+    dependencies:
+      '@types/markdown-it': 13.0.6
+      markdown-it: 13.0.2
+    dev: true
+
+  /@mdit/plugin-mark@0.6.5(markdown-it@13.0.2):
+    resolution: {integrity: sha512-sXIDGlEqoH4iByXMmSW+kg/E/KO4bOv3lHbztu9MGBIIrdOtoZ6PcBNYTNEBynlCIMvLrwa3g7HKxAQT59fHkQ==}
+    engines: {node: '>= 18'}
+    peerDependencies:
+      markdown-it: ^13.0.2
+    peerDependenciesMeta:
+      markdown-it:
+        optional: true
+    dependencies:
+      '@types/markdown-it': 13.0.6
+      markdown-it: 13.0.2
+    dev: true
+
+  /@mdit/plugin-tasklist@0.6.5(markdown-it@13.0.2):
+    resolution: {integrity: sha512-Eh5946hQrR+rOhvbOKN3lmFYK77R4UuLkE8NwZeyGrqaKvbZzdTKkPAr+Use87Fnxm7xOhcJiQuC62wQ+k+AKg==}
     engines: {node: '>= 18'}
     peerDependencies:
       markdown-it: ^13.0.2
@@ -534,19 +598,11 @@ packages:
   /@types/linkify-it@3.0.3:
     resolution: {integrity: sha512-pTjcqY9E4nOI55Wgpz7eiI8+LzdYnw3qxXCfHyBDdPbYvbyLgWLJGh8EdPvqawwMK1Uo1794AUkkR38Fr0g+2g==}
 
-  /@types/markdown-it@13.0.2:
-    resolution: {integrity: sha512-Tla7hH9oeXHOlJyBFdoqV61xWE9FZf/y2g+gFVwQ2vE1/eBzjUno5JCd3Hdb5oATve5OF6xNjZ/4VIZhVVx+hA==}
-    dependencies:
-      '@types/linkify-it': 3.0.3
-      '@types/mdurl': 1.0.3
-    dev: false
-
   /@types/markdown-it@13.0.6:
     resolution: {integrity: sha512-0VqpvusJn1/lwRegCxcHVdmLfF+wIsprsKMC9xW8UPcTxhFcQtoN/fBU1zMe8pH7D/RuueMh2CaBaNv+GrLqTw==}
     dependencies:
       '@types/linkify-it': 3.0.3
       '@types/mdurl': 1.0.3
-    dev: true
 
   /@types/mdurl@1.0.3:
     resolution: {integrity: sha512-T5k6kTXak79gwmIOaDF2UUQXFbnBE0zBUzF20pz7wDYu0RQMzWg+Ml/Pz50214NsFHBITkoi5VtdjFZnJ2ijjA==}
@@ -2444,13 +2500,13 @@ packages:
     resolution: {integrity: sha512-+Jow9A7tBSwSuGvQufneeT35o9Cq8+OyR+WAhhC4dOG2NvB2oCeXiaUGGyP9PCRrxQoFxZF+xoVHbo98xYAi+g==}
     dev: false
 
-  /markdown-it-anchor@8.6.7(@types/markdown-it@13.0.2)(markdown-it@13.0.2):
+  /markdown-it-anchor@8.6.7(@types/markdown-it@13.0.6)(markdown-it@13.0.2):
     resolution: {integrity: sha512-FlCHFwNnutLgVTflOYHPW2pPcl2AACqVzExlkGQNsi4CJgqOHN7YTgDd4LuhgN1BFO3TS0vLAruV1Td6dwWPJA==}
     peerDependencies:
       '@types/markdown-it': '*'
       markdown-it: '*'
     dependencies:
-      '@types/markdown-it': 13.0.2
+      '@types/markdown-it': 13.0.6
       markdown-it: 13.0.2
     dev: false
 
@@ -3408,7 +3464,7 @@ packages:
       valaxy: latest
     dependencies:
       '@waline/client': 2.15.7
-      valaxy: 0.15.6(@types/markdown-it@13.0.2)(@unhead/shared@1.7.4)(postcss@8.4.31)(typescript@5.2.2)(unhead@1.7.4)
+      valaxy: 0.15.6(@types/markdown-it@13.0.6)(@unhead/shared@1.7.4)(postcss@8.4.31)(typescript@5.2.2)(unhead@1.7.4)
     transitivePeerDependencies:
       - '@vue/composition-api'
     dev: false
@@ -3422,7 +3478,7 @@ packages:
       animejs: 3.2.1
     dev: false
 
-  /valaxy@0.15.6(@types/markdown-it@13.0.2)(@unhead/shared@1.7.4)(postcss@8.4.31)(typescript@5.2.2)(unhead@1.7.4):
+  /valaxy@0.15.6(@types/markdown-it@13.0.6)(@unhead/shared@1.7.4)(postcss@8.4.31)(typescript@5.2.2)(unhead@1.7.4):
     resolution: {integrity: sha512-DwSdjnfGsZfg+vBt9ofEj3GcLksYJEWZ8LK12Cf69T2BPLc/E+oTlRhoAyY6jfbPSQg53rnnoBxusbuppI3KzA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3460,7 +3516,7 @@ packages:
       kolorist: 1.8.0
       lru-cache: 10.0.1
       markdown-it: 13.0.2
-      markdown-it-anchor: 8.6.7(@types/markdown-it@13.0.2)(markdown-it@13.0.2)
+      markdown-it-anchor: 8.6.7(@types/markdown-it@13.0.6)(markdown-it@13.0.2)
       markdown-it-attrs: 4.1.6(markdown-it@13.0.2)
       markdown-it-container: 3.0.0
       markdown-it-emoji: 2.0.2
