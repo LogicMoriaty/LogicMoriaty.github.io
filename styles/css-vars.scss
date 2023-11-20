@@ -32,6 +32,22 @@
 //   border-bottom: #4d73ab;
 // }
 
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  // border-bottom: 2px solid var(--smc-header-bottom-color);
+  border-bottom: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(0.25turn, #9198e5, transparent);
+}
+
+.markdown-body blockquote {
+  background-color: rgba(240, 248, 255, 0.514);
+}
+
 .dark {
   // --banner-line-color: linear-gradient(#4d73ab 0, #ff7f50 100%);
 
@@ -62,6 +78,22 @@
 
   strong::selection {
     -webkit-text-fill-color: var(--text-faint);
+  }
+
+  .markdown-body blockquote {
+    background-color: rgba(0, 0, 0, 0.381);
+  }
+
+  .markdown-body h1,
+  .markdown-body h2,
+  .markdown-body h3,
+  .markdown-body h4,
+  .markdown-body h5,
+  .markdown-body h6 {
+    // border-bottom: 2px solid var(--smc-header-bottom-color);
+    border-bottom: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(0.25turn, #9198e5, transparent);
   }
 }
 
@@ -121,7 +153,7 @@ div.yun-post-list img.object-cover {
   box-shadow: 5px 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
-.yun-card{
+.yun-card {
   backdrop-filter: blur(2px);
 }
 
@@ -132,4 +164,40 @@ div.yun-post-list img.object-cover {
     background-repeat: no-repeat;
     background-position: center top;
   }
+}
+
+.markdown-body hr {
+  // margin-block-start: 4em;
+  // margin-block-end: 4em;
+  border: 2px;
+  // height: 0;
+  border-bottom: 2px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(
+    to right,
+    transparent,
+    #0fb6d6,
+    transparent
+  );
+}
+
+.markdown-body hr::before {
+  content: "§";
+  font-size: 20px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(60deg);
+  transform-origin: 50% 50%;
+  padding: 0.5rem;
+  color: #f4569d;
+  // background-color: #100e17;
+  transition: all 1s ease-in-out;
+  // transition-behavior: normal;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  transition-property: all;
 }
