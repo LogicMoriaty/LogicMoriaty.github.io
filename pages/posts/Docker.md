@@ -203,3 +203,9 @@ ssh -p 1234 root@0.0.0.0
 然后 VScode 的 settings. json 文件里添加上 ssh 的路径。
 ![|500](../../source/images/sshVScodepath.png)
 
+## Jupyterlab
+注意在 docker 内 jupyterlab 的端口设置是 8888，映射到本机是 19999，所以打开网址的时候，要用 [lab - JupyterLab](http://127.0.0.1:19999/lab) 的网址
+
+查看所有进程的命令是 `ps aux` ，查看所有端口的命令是 `netstat -tanlp`
+
+杀掉进程的命令是 `kill -9 进程ID`
