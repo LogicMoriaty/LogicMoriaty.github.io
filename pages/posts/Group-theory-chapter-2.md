@@ -3,7 +3,7 @@ share: "true"
 title: 群论笔记——第二章 群的线性表示理论
 cover: https://cdn.jsdelivr.net/gh/LogicMoriaty/source/card1/img(8).webp
 date: 2023-11-04
-updated: 2023-11-22
+updated: 2023-12-19
 categories: 群论
 tags:
   - 笔记
