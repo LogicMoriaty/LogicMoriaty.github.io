@@ -50,7 +50,7 @@ $SO(3)$ 群的群空间是 **双连通的**。
 $$
 g \mathbf{n} = \mathbf{n}
 $$
-该定理表明：**$SO(3)$ 的任一元素 $g$ 都可以表示为绕某一转动轴 $\mathbf{n}$，转动 $\omega$ 角度的操作： $g = C_{\mathbf{n}}(\omega)$。
+该定理表明：**$SO(3)$ 的任一元素 $g$ 都可以表示为绕某一转动轴 $\mathbf{n}$，转动 $\omega$ 角度的操作： $g = C_{\mathbf{n}}(\omega)$**。
 
 :::
 
@@ -66,7 +66,7 @@ $$
 $$
 (gC_{\mathbf{k}}(\omega)g ^{-1})(g\mathbf{k}) = gC_{\mathbf{k}}(\omega )\mathbf{k} =g\mathbf{k} 
 $$
-所以**共轭元素 $gC_{\mathbf{k}}(\omega) g ^{-1}$ 的转动轴为 $g \mathbf{k}$。
+所以**共轭元素 $gC_{\mathbf{k}}(\omega) g ^{-1}$ 的转动轴为 $g \mathbf{k}$**。
 
 因此可以把共轭元素记为
 $$
