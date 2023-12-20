@@ -14,20 +14,25 @@ top: 1
 ## 实正交变换矩阵
 
 对于 $R^{3}$ 空间中的矢量，**实正交变换前后，矢量的模长保持不变**。也就是 $(gx)^{T}(gx) = x^{T}x$，其中 $g$ 为实正交变换矩阵，$x$ 为矢量。所以
+
 $$
 g^{T}g = E  \leftrightarrow g ^{-1} = g
 $$
+
 两边同时取行列式可得
+
 $$
 \det (g^{T})\det(g) = (\det(g))^{2} = 1
 $$
+
 因此
+
 $$
 \det(g) =\pm 1
 $$
 
 >所以实正交变换矩阵主要有两个特点，一个是其与其自身的转置的乘积为单位矩阵，另一个是行列式为 $\pm 1$。
-## 实正交矩阵群 $O(3)$
+<!-- ## 实正交矩阵群 $O (3)$
 
 $$
 O(3)=\{g\mid g \text{为}3\times3\text{矩阵},\:g^Tg=E\}
@@ -39,6 +44,7 @@ $$
 $$
 SO(3)=\{g\mid g \in O(3), \text{且} \det(g) = 1\}
 $$
+
 $SO(3)$ 群中的任意矩阵都可以通过参数的连续变化变换到恒元。
 
 $SO(3)$ 群的群空间是 **双连通的**。
@@ -47,31 +53,39 @@ $SO(3)$ 群的群空间是 **双连通的**。
 
 ::: warning 实特殊正交群定理
 对于 $\forall g \in SO(3)$，总存在一个**矢量 $\mathbf{n}$** ，使得
+
 $$
 g \mathbf{n} = \mathbf{n}
 $$
+
 该定理表明：**$SO(3)$ 的任一元素 $g$ 都可以表示为绕某一转动轴 $\mathbf{n}$，转动 $\omega$ 角度的操作： $g = C_{\mathbf{n}}(\omega)$**。
 
 :::
 
-![300](../../source/images/Group-theory-chapter-3.png)
+![300](群论/attachments/Group-theory-chapter-3.png)
 
 
 ## $SO(3)$ 群的共轭类
 对于 $\forall f= C_{\mathbf{k}}(\omega)\in SO(3)$，与 $f$ 共轭的元素为
+
 $$
 gC_{\mathbf{k}}(\omega)g ^{-1}
 $$
+
 因为
+
 $$
 (gC_{\mathbf{k}}(\omega)g ^{-1})(g\mathbf{k}) = gC_{\mathbf{k}}(\omega )\mathbf{k} =g\mathbf{k} 
 $$
+
 所以**共轭元素 $gC_{\mathbf{k}}(\omega) g ^{-1}$ 的转动轴为 $g \mathbf{k}$**。
 
 因此可以把共轭元素记为
+
 $$
 gC_{\mathbf{k}}(\omega)g ^{-1} = C_{g\mathbf{k}}(\omega')
 $$
+
 可以证明 $\omega = \omega'$，因此，**$SO(3)$ 群中转动角度相同的群元在同一类中**。
 
 
@@ -183,4 +197,4 @@ $$
 # 点群
 
 
-# 晶体点群
+# 晶体点群 -->
