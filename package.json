@@ -13,10 +13,10 @@
   "dependencies": {
     "markdown-it-admonition": "^1.0.4",
     "particles.js": "^2.0.0",
-    "valaxy": "0.15.6",
+    "valaxy": "0.18.5",
     "valaxy-addon-lightgallery": "^0.0.2",
     "valaxy-addon-waline": "^0.1.0",
-    "valaxy-theme-yun": "0.15.6",
+    "valaxy-theme-yun": "0.18.5",
     "vue": "^3.3.4"
   },
   "devDependencies": {
