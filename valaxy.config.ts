@@ -1,6 +1,5 @@
 import { defineValaxyConfig } from 'valaxy'
-// import type { UserThemeConfig } from 'valaxy-theme-yun'
-import type { UserThemeConfig } from './node_modules/.pnpm/valaxy-theme-yun@0.18.5/node_modules/valaxy-theme-yun'
+import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { addonWaline } from "valaxy-addon-waline";
 import { addonLightGallery } from 'valaxy-addon-lightgallery';
 import { addonComponents } from 'valaxy-addon-components';
