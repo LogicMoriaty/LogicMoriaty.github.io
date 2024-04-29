@@ -26,14 +26,14 @@ $$
 
 For example,
 - 四面体
-  $$
+$$
 \begin{align}
 a_{0} &= 4,\quad a_{1} = 6, \quad a_{2} = 4, \\
 \chi &= 4 - 6 + 4 = 2 
 \end{align}
 $$
 - 五面体
-  $$
+$$
 \begin{align}
 a_{0} &= 6, \quad a_{1} = 9, \quad a_{2} = 5, \\
 \chi  &= 6 - 9 + 5 = 2
