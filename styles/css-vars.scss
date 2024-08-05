@@ -144,7 +144,9 @@ div.yun-post-list img.object-cover {
   &:hover {
     transform: scale(1.1);
   }
-  overflow: hidden;
+  & {
+    overflow: hidden;
+  }
 }
 
 .sidebar {
