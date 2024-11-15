@@ -8,6 +8,15 @@ dependencies:
   valaxy:
     specifier: 0.20.4
     version: 0.20.4(@types/markdown-it@14.1.2)(postcss@8.4.49)(typescript@5.6.3)
+  valaxy-addon-components:
+    specifier: ^0.0.4
+    version: 0.0.4
+  valaxy-addon-lightgallery:
+    specifier: ^0.0.3
+    version: 0.0.3(valaxy@0.20.4)
+  valaxy-addon-waline:
+    specifier: ^0.2.0
+    version: 0.2.0(typescript@5.6.3)(valaxy@0.20.4)
   valaxy-theme-yun:
     specifier: 0.20.4
     version: 0.20.4(vue@3.5.12)
@@ -2411,6 +2420,27 @@ packages:
       - vue
     dev: false
 
+  /@waline/api@1.0.0-alpha.8:
+    resolution: {integrity: sha512-S6pgUUfv+gcXU3hiW3PNUwiUvPy7bXmmLB/bwdU3hN5YVT5Q7CxyVSLA3oJkrNO5lcisKK1GBPv0H2W1uB0eGA==}
+    engines: {node: '>=18'}
+    dev: false
+
+  /@waline/client@3.3.2(typescript@5.6.3):
+    resolution: {integrity: sha512-CK8ef5QafKt29AAz3n+bXNwzXdT/yh+pMRLxxTNH4RAMl0Wl3utqh3uA/gDpNRLWS4sOkFMASUC0ckbpeOAJNg==}
+    engines: {node: '>=18'}
+    dependencies:
+      '@vueuse/core': 11.2.0(vue@3.5.12)
+      '@waline/api': 1.0.0-alpha.8
+      autosize: 6.0.1
+      marked: 14.1.4
+      marked-highlight: 2.2.1(marked@14.1.4)
+      recaptcha-v3: 1.11.3
+      vue: 3.5.12(typescript@5.6.3)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - typescript
+    dev: false
+
   /acorn-jsx@5.3.2(acorn@8.14.0):
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
     peerDependencies:
@@ -2510,6 +2540,10 @@ packages:
 
   /asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
+    dev: false
+
+  /autosize@6.0.1:
+    resolution: {integrity: sha512-f86EjiUKE6Xvczc4ioP1JBlWG7FKrE13qe/DxBCpe8GCipCq2nFw73aO8QEBKHfSbYGDN5eB9jXWKen7tspDqQ==}
     dev: false
 
   /axios@1.7.7(debug@4.3.7):
@@ -4168,6 +4202,7 @@ packages:
   /is-extglob@2.1.1:
     resolution: {integrity: sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==}
     engines: {node: '>=0.10.0'}
+    requiresBuild: true
     dev: false
 
   /is-fullwidth-code-point@3.0.0:
@@ -4417,6 +4452,11 @@ packages:
     resolution: {integrity: sha512-y+SqErxb8h7nE/fiEX07jsbuhrpO9lL8eca7/Y1nuWV2moNlXhyd59iDGcRf6moVyDMbmTNzL40SUyrFU/yDpg==}
     dev: false
 
+  /lightgallery@2.8.1:
+    resolution: {integrity: sha512-K9bRsrKQM4UyjNUXOX+mW1IMWKvWbDmK42x5nNzgxsi5CNEYMfLoRsA27F1lXp+yegeqdXusymS9w16Fd8a3Rg==}
+    engines: {node: '>=6.0.0'}
+    dev: false
+
   /linkify-it@5.0.0:
     resolution: {integrity: sha512-5aHCbzQRADcdP+ATqnDuhhJ/MRIqDkZX5pyjFHRRysS8vZ5AbqGEoFIb6pYHPZ+L/OC2Lc+xT8uHVVR5CAK/wQ==}
     dependencies:
@@ -4555,8 +4595,22 @@ packages:
       uc.micro: 2.1.0
     dev: false
 
+  /marked-highlight@2.2.1(marked@14.1.4):
+    resolution: {integrity: sha512-SiCIeEiQbs9TxGwle9/OwbOejHCZsohQRaNTY2u8euEXYt2rYUFoiImUirThU3Gd/o6Q1gHGtH9qloHlbJpNIA==}
+    peerDependencies:
+      marked: '>=4 <16'
+    dependencies:
+      marked: 14.1.4
+    dev: false
+
   /marked@13.0.3:
     resolution: {integrity: sha512-rqRix3/TWzE9rIoFGIn8JmsVfhiuC8VIQ8IdX5TfzmeBucdY05/0UlzKaw0eVtpcN/OdVFpBk7CjKGo9iHJ/zA==}
+    engines: {node: '>= 18'}
+    hasBin: true
+    dev: false
+
+  /marked@14.1.4:
+    resolution: {integrity: sha512-vkVZ8ONmUdPnjCKc5uTRvmkRbx4EAi2OkTOXmfTDhZz3OFqMNBM1oTTWwTr4HY4uAEojhzPf+Fy8F1DWa3Sndg==}
     engines: {node: '>= 18'}
     hasBin: true
     dev: false
@@ -5198,6 +5252,10 @@ packages:
   /readdirp@4.0.2:
     resolution: {integrity: sha512-yDMz9g+VaZkqBYS/ozoBJwaBhTbZo3UNYQHNRw1D3UFQB8oHB4uS/tAODO+ZLjGWmUbKnIlOWO+aaIiAxrUWHA==}
     engines: {node: '>= 14.16.0'}
+    dev: false
+
+  /recaptcha-v3@1.11.3:
+    resolution: {integrity: sha512-sEE6J0RzUkS+sKEBpgCD/AqCU0ffrAVOADGjvAx9vcttN+VLK42SWMkj/J/I6vHu3Kew+xcfbBqDVb65N0QGDw==}
     dev: false
 
   /regex-recursion@4.2.1:
@@ -6008,6 +6066,31 @@ packages:
   /uuid@9.0.1:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
     hasBin: true
+    dev: false
+
+  /valaxy-addon-components@0.0.4:
+    resolution: {integrity: sha512-mpyDmQzBvzIR1PMEpDP6uVvx2YNVsApxAvLOMld4W+Rrygn+GzIc7h1HOQCOva6VYI3Lr9CheqI13gJlP2CHYg==}
+    dev: false
+
+  /valaxy-addon-lightgallery@0.0.3(valaxy@0.20.4):
+    resolution: {integrity: sha512-fvw/8DBEgrcdEPHslOpdOvHOAxhxm1e8jGEaQhqNS6KY5YTTYvBGwl4vbadsGwAckES8lg0Wfvd0/9z+z7uTUA==}
+    peerDependencies:
+      valaxy: latest
+    dependencies:
+      lightgallery: 2.8.1
+      valaxy: 0.20.4(@types/markdown-it@14.1.2)(postcss@8.4.49)(typescript@5.6.3)
+    dev: false
+
+  /valaxy-addon-waline@0.2.0(typescript@5.6.3)(valaxy@0.20.4):
+    resolution: {integrity: sha512-/aJ4XkMaKPVcZYdvzlJQVgbZ0KYZ24/BncJRmSdt33+rkRm8OeSvyQkwfXDnTJSyrbM3jL5qtLL9Bvl9JTHzTg==}
+    peerDependencies:
+      valaxy: latest
+    dependencies:
+      '@waline/client': 3.3.2(typescript@5.6.3)
+      valaxy: 0.20.4(@types/markdown-it@14.1.2)(postcss@8.4.49)(typescript@5.6.3)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - typescript
     dev: false
 
   /valaxy-theme-yun@0.20.4(vue@3.5.12):
