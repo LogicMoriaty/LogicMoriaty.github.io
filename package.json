@@ -1,9 +1,10 @@
 {
   "name": "logicmoriaty-blog",
-  "version": "0.14.54",
+  "type": "module",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "npm run build:ssg && npm run rss",
+    "build": "npm run build:ssg",
     "build:spa": "valaxy build",
     "build:ssg": "valaxy build --ssg",
     "dev": "valaxy",
@@ -11,21 +12,10 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "markdown-it-admonition": "^1.0.4",
-    "particles.js": "^2.0.0",
-    "valaxy": "0.19.5",
-    "valaxy-addon-lightgallery": "^0.0.2",
-    "valaxy-addon-waline": "^0.2.0",
-    "valaxy-theme-yun": "0.19.5",
-    "vue": "^3.4.34"
+    "valaxy": "0.20.4",
+    "valaxy-theme-yun": "0.20.4"
   },
   "devDependencies": {
-    "@mdit/plugin-figure": "^0.12.0",
-    "@mdit/plugin-img-lazyload": "^0.12.0",
-    "@mdit/plugin-img-mark": "^0.12.0",
-    "@mdit/plugin-mark": "^0.12.0",
-    "@mdit/plugin-tasklist": "^0.12.0",
-    "typescript": "^5.5.4",
-    "valaxy-addon-components": "^0.0.2"
+    "typescript": "^5.6.3"
   }
 }

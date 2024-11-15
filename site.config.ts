@@ -1,6 +1,5 @@
 import { defineSiteConfig } from 'valaxy'
 
-
 export default defineSiteConfig({
   url: 'https://www.logicmoriaty.top/',
   lang: 'zh-CN',
