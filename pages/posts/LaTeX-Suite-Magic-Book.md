@@ -126,20 +126,20 @@ Insert space after greek letters and symbols, etc
 
 | **Trigger**                   | **Replacement**          | **Options** | **Description**                                                                                     | **Priority** |
 | ----------------------------- | ------------------------ | ----------- | --------------------------------------------------------------------------------------------------- | ------------ |
-| `([a-zA-Z]),\\.`              | `\mathbf{[[0|0]]}`         | rmA         | Matches a letter followed by a comma and period, applies bold formatting.                           |              |
-| `([a-zA-Z])\\.,`              | `\mathbf{[[0|0]]}`         | rmA         | Matches a letter followed by a period and comma, applies bold formatting.                           |              |
-| `([A-Za-z])(\\d)`             | `[[0|0]]_{[[1|1]]}`          | rmA         | Auto letter subscript: Matches a letter followed by a digit and applies subscript notation.         | -1           |
-| `([A-Za-z])_(\\d\\d)`         | `[[0|0]]_{[[1|1]]}`          | rmA         | Matches a letter followed by a two-digit subscript and applies subscript notation.                  |              |
-| `\\hat{([A-Za-z])}(\\d)`      | `\hat{[[0|0]]}_{[[1|1]]}`    | rmA         | Matches a letter with a hat and a digit, applies hat and subscript formatting.                      |              |
-| `\\\\mathbf{([A-Za-z])}(\\d)` | `\mathbf{[[0|0]]}_{[[1|1]]}` | rmA         | Matches a letter in boldface followed by a digit, applies boldface and subscript formatting.        |              |
-| `\\\\vec{([A-Za-z])}(\\d)`    | `\vec{[[0|0]]}_{[[1|1]]}`    | rmA         | Matches a letter with vector notation followed by a digit, applies vector and subscript formatting. |              |
-| `([a-zA-Z])bar`               | `\bar{[[0|0]]}`            | rmA         | Matches a letter followed by "bar", applies overline formatting.                                    |              |
-| `([a-zA-Z])hat`               | `\hat{[[0|0]]}`            | rmA         | Matches a letter followed by "hat", applies hat formatting.                                         |              |
-| `([a-zA-Z])ddot`              | `\ddot{[[0|0]]}`           | rmA         | Matches a letter followed by "ddot", applies double dot formatting (second derivative).             | 3            |
-| `([a-zA-Z])dot`               | `\dot{[[0|0]]}`            | rmA         | Matches a letter followed by "dot", applies dot formatting (used in derivatives).                   | 1            |
-| `([a-zA-Z])vec`               | `\vec{[[0|0]]}`            | rmA         | Matches a letter followed by "vec", applies vector formatting.                                      |              |
-| `([a-zA-Z])tilde`             | `\tilde{[[0|0]]}`          | rmA         | Matches a letter followed by "tilde", applies tilde formatting.                                     |              |
-| `([a-zA-Z])und`               | `\underline{[[0|0]]}`      | rmA         | Matches a letter followed by "und", applies underline formatting.                                   |              |
+| `([a-zA-Z]),\\.` | `\mathbf{[[0]]}` | rmA | Matches a letter followed by a comma 和 period, applies bold formatting. | |
+| `([a-zA-Z])\\.,`              | `\mathbf{[[0]]}`         | rmA         | Matches a letter followed by a period and comma, applies bold formatting.                           |              |
+| `([A-Za-z])(\\d)`             | `[[0]]_{[[1]]}` | rmA | Auto letter subscript: Matches a letter followed by a digit 和 applies subscript notation. | -1 |
+| `([A-Za-z])_(\\d\\d)`         | `[[0]]_{[[1]]}`          | rmA         | Matches a letter followed by a two-digit subscript and applies subscript notation.                  |              |
+| `\\hat{([A-Za-z])}(\\d)`      | `\hat{[[0]]}_{[[1]]}`    | rmA         | Matches a letter with a hat and a digit, applies hat and subscript formatting.                      |              |
+| `\\\\mathbf{([A-Za-z])}(\\d)` | `\mathbf{[[0]]}_{[[1]]}` | rmA         | Matches a letter in boldface followed by a digit, applies boldface and subscript formatting.        |              |
+| `\\\\vec{([A-Za-z])}(\\d)`    | `\vec{[[0]]}_{[[1]]}`    | rmA         | Matches a letter with vector notation followed by a digit, applies vector and subscript formatting. |              |
+| `([a-zA-Z])bar`               | `\bar{[[0]]}`            | rmA         | Matches a letter followed by "bar", applies overline formatting.                                    |              |
+| `([a-zA-Z])hat`               | `\hat{[[0]]}`            | rmA         | Matches a letter followed by "hat", applies hat formatting.                                         |              |
+| `([a-zA-Z])ddot`              | `\ddot{[[0]]}`           | rmA         | Matches a letter followed by "ddot", applies double dot formatting (second derivative).             | 3            |
+| `([a-zA-Z])dot`               | `\dot{[[0]]}`            | rmA         | Matches a letter followed by "dot", applies dot formatting (used in derivatives).                   | 1            |
+| `([a-zA-Z])vec`               | `\vec{[[0]]}`            | rmA         | Matches a letter followed by "vec", applies vector formatting.                                      |              |
+| `([a-zA-Z])tilde`             | `\tilde{[[0]]}`          | rmA         | Matches a letter followed by "tilde", applies tilde formatting.                                     |              |
+| `([a-zA-Z])und`               | `\underline{[[0]]}`      | rmA         | Matches a letter followed by "und", applies underline formatting.                                   |              |
 
 ## Trigonometric function
 
@@ -197,8 +197,8 @@ Insert space after greek letters and symbols, etc
 | `sum`         | `\sum`                                 | mA          | Represents summation symbol (Σ).                                               | $\sum$                  |
 | `prod`        | `\prod`                                | mA          | Represents product symbol (Π).                                                 | $\prod$                 |
 | `lim`         | `\lim_{ ${0:n} \\to ${1:\\infty} } $2` | mA          | Represents limit notation with customizable bounds and expression.             | $\lim_{ n \to \infty }$ |
-| `([^\\\\])pm` | `[[0|0]]\pm`                             | rm          | Represents ± symbol, avoiding accidental escapes (like \pm).                   | $\pm$                   |
-| `([^\\\\])mp` | `[[0|0]]\mp`                             | rm          | Represents ∓ symbol, avoiding accidental escapes.                              | $\mp$                   |
+| `([^\\\\])pm` | `[[0]]\pm`                             | rm          | Represents ± symbol, avoiding accidental escapes (like \pm).                   | $\pm$                   |
+| `([^\\\\])mp` | `[[0]]\mp`                             | rm          | Represents ∓ symbol, avoiding accidental escapes.                              | $\mp$                   |
 | `+-`          | `\pm`                                  | mA          | Represents ± symbol.                                                           | $\pm$                   |
 | `-+`          | `\mp`                                  | mA          | Represents ∓ symbol.                                                           | $\mp$                   |
 | `...`         | `\dots`                                | mA          | Represents ellipsis (three dots).                                              | $\dots$                 |
@@ -299,11 +299,11 @@ Insert space after greek letters and symbols, etc
 | `partia`                           | `\frac{ \partial ${0:y} }{ \partial ${1:x} } $2`                | m           | Represents the first partial derivative of `y` with respect to `x`.            | $\frac{ \partial y }{ \partial x }$                |
 | `pa2`                              | `\frac{ \partial^{2} ${0:y} }{ \partial ${1:x}^{2} } $2`        | mA          | Represents the second partial derivative of `y` with respect to `x`.           | $\frac{ \partial^{2} y }{ \partial x^{2} }$        |
 | `pa3`                              | `\frac{ \partial^{3} ${0:y} }{ \partial ${1:x}^{3} } $2`        | mA          | Represents the third partial derivative of `y` with respect to `x`.            | $\frac{ \partial^{3} y }{ \partial x^{3} }$        |
-| `pa([A-Za-z])([A-Za-z])`           | `\frac{ \partial [[0|0]] }{ \partial [[1|1]] } `                    | rm          | Represents a partial derivative of a variable with respect to another.         | $\frac{ \partial y }{ \partial x }$                |
-| `pa([A-Za-z])([A-Za-z])([A-Za-z])` | `\frac{ \partial^{2} [[0|0]] }{ \partial [[1|1]] \partial [[2|2]] } ` | rm          | Represents the second mixed partial derivative of variables.                   | $\frac{ \partial^{2} y }{ \partial y \partial x }$ |
-| `pa([A-Za-z])([A-Za-z])2`          | `\frac{ \partial^{2} [[0|0]] }{ \partial [[1|1]]^{2} } `            | rmA         | Represents the second partial derivative of a variable with respect to itself. | $\frac{ \partial^{2} y }{ \partial x^{2} }$        |
-| `de([A-Za-z])([A-Za-z])`           | `\frac{ d[[0|0]] }{ d[[1|1]] } `                                    | rm          | Represents the derivative of `[[0|0]]` with respect to `[[1|1]]`.                  | $\frac{ dy }{ dx }$                                |
-| `de([A-Za-z])([A-Za-z])2`          | `\frac{ d^{2}[[0|0]] }{ d[[1|1]]^{2} } `                            | rmA         | Represents the second derivative of `[[0|0]]` with respect to `[[1|1]]`.           | $\frac{ d^{2}y }{ dx^{2} }$                        |
+| `pa([A-Za-z])([A-Za-z])`           | `\frac{ \partial [[0]] }{ \partial [[1]] } `                    | rm          | Represents a partial derivative of a variable with respect to another.         | $\frac{ \partial y }{ \partial x }$                |
+| `pa([A-Za-z])([A-Za-z])([A-Za-z])` | `\frac{ \partial^{2} [[0]] }{ \partial [[1]] \partial [[2]] } ` | rm          | Represents the second mixed partial derivative of variables.                   | $\frac{ \partial^{2} y }{ \partial y \partial x }$ |
+| `pa([A-Za-z])([A-Za-z])2`          | `\frac{ \partial^{2} [[0]] }{ \partial [[1]]^{2} } `            | rmA         | Represents the second partial derivative of a variable with respect to itself. | $\frac{ \partial^{2} y }{ \partial x^{2} }$        |
+| `de([A-Za-z])([A-Za-z])`           | `\frac{ d[[0]] }{ d[[1]] } `                                    | rm          | Represents the derivative of `[[0|0]]` with respect to `[[1|1]]`.                  | $\frac{ dy }{ dx }$                                |
+| `de([A-Za-z])([A-Za-z])2`          | `\frac{ d^{2}[[0]] }{ d[[1]]^{2} } `                            | rmA         | Represents the second derivative of `[[0|0]]` with respect to `[[1|1]]`.           | $\frac{ d^{2}y }{ dx^{2} }$                        |
 | `ddt`                              | `\frac{d}{dt} `                                                 | mA          | Represents the derivative with respect to time (`dt`).                         | $\frac{d}{dt}$                                     |
 | `dd`                               | `\frac{d ${0:y}}{d${1:x}} $2`                                   | m           | Represents a derivative of `y` with respect to `x`.                            | $\frac{d y}{dx}$                                   |
 | `dd_{2}`                           | `\frac{d^{2} ${0:y}}{d${1:x}^{2} $2`                            | m           | Represents the second derivative of `y` with respect to `x`.                   | $\frac{d^{2} y}{dx^{2}}$                           |
