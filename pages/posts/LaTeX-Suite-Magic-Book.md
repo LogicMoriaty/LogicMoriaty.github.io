@@ -1,7 +1,7 @@
 ---
 share: "true"
 title: Obsidian LaTeX Suite 魔法手册
-cover: https://cdn.jsdelivr.net/gh/LogicMoriaty/source/card1/img (26). Webp
+cover: https://cdn.jsdelivr.net/gh/LogicMoriaty/source/card1/img(26).Webp
 date: 2024-12-21
 updated: 2024-12-21
 categories: Latex
