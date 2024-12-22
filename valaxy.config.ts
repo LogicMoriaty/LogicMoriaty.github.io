@@ -40,8 +40,10 @@ export default defineValaxyConfig<UserThemeConfig>({
     // 网页背景
     bg_image: {
       enable: true,
-      url: "https://cdn.jsdelivr.net/gh/LogicMoriaty/source/day/dayimg(2).webp",	// 白日模式背景
-      dark: "https://cdn.jsdelivr.net/gh/LogicMoriaty/source/night/112094960_p0_master1200.webp",	// 夜间模式背景
+      // url: "https://cdn.jsdelivr.net/gh/LogicMoriaty/source/day/dayimg(2).webp",	// 白日模式背景
+      url: "https://image.logicmoriaty.top/dayimg(2).webp",	// 白日模式背景
+      // dark: "https://cdn.jsdelivr.net/gh/LogicMoriaty/source/night/112094960_p0_master1200.webp",	// 夜间模式背景
+      dark: "https://image.logicmoriaty.top/112094960_p0_master1200.webp",	// 夜间模式背景
     //   这个是透明度
       opacity: 0.6,
     },

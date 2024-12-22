@@ -8,7 +8,8 @@ export default defineSiteConfig({
   description: 'Per Aspera, Ad Astra——',
   author: {
     name: 'Logic·Moriaty',
-    avatar: "https://cdn.jsdelivr.net/gh/LogicMoriaty/LogicMoriaty.github.io/source/1657446019015.webp",	//头像链接
+    // avatar: "https://cdn.jsdelivr.net/gh/LogicMoriaty/LogicMoriaty.github.io/source/1657446019015.webp",	//头像链接
+    avatar: "https://image.logicmoriaty.top/avatar(1).webp",	//头像链接
     status: {
       emoji: '✨'	// 头像旁边的emoji
     },
