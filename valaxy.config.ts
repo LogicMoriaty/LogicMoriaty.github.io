@@ -41,9 +41,11 @@ export default defineValaxyConfig<UserThemeConfig>({
     bg_image: {
       enable: true,
       // url: "https://cdn.jsdelivr.net/gh/LogicMoriaty/source/day/dayimg(2).webp",	// 白日模式背景
-      url: "https://image.logicmoriaty.top/dayimg(2).webp",	// 白日模式背景
+      // url: "https://image.logicmoriaty.top/dayimg(2).webp",	// 白日模式背景
+      url: "https://image.logicmoriaty.top/107236405_p2.webp",	// 白日模式背景
       // dark: "https://cdn.jsdelivr.net/gh/LogicMoriaty/source/night/112094960_p0_master1200.webp",	// 夜间模式背景
-      dark: "https://image.logicmoriaty.top/112094960_p0_master1200.webp",	// 夜间模式背景
+      // dark: "https://image.logicmoriaty.top/112094960_p0_master1200.webp",	// 夜间模式背景
+      dark: "https://image.logicmoriaty.top/116822736_p0.webp",	// 夜间模式背景
     //   这个是透明度
       opacity: 0.6,
     },
@@ -84,12 +86,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-open-arm-line',
         color: '#4bbea4',
       },
-      {
-        name: '喜欢的女孩子',
-        url: '/girls/',
-        icon: 'i-ri-women-line',
-        color: 'hotpink',
-      },
+      // {
+      //   name: '喜欢的女孩子',
+      //   url: '/girls/',
+      //   icon: 'i-ri-women-line',
+      //   color: 'hotpink',
+      // },
     ],
 
     footer: {
