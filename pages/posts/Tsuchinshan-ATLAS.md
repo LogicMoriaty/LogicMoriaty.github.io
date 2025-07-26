@@ -1,7 +1,7 @@
 ---
 share: "true"
 title: 紫金山-阿特拉斯彗星
-cover: https://cdn.jsdelivr.net/gh/LogicMoriaty/source/card1/img(27).Webp
+cover: https://cdn.jsdelivr.net/gh/LogicMoriaty/source/card1/img(27).webp
 date: 2025-6-10
 updated: 2025-6-10
 categories: Astrophotography
