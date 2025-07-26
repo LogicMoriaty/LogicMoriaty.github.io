@@ -1,0 +1,254 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Lomori's blog~",
+    "home_page_url": "https://www.logicmoriaty.top/",
+    "feed_url": "https://www.logicmoriaty.top/feed.json",
+    "description": "Per Aspera, Ad Astra——",
+    "icon": "https://image.logicmoriaty.top/avatar(1).webp",
+    "author": {
+        "name": "Logic·Moriaty",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "https://www.logicmoriaty.top/posts/Tsuchinshan-ATLAS",
+            "content_html": "<p>Comet C/2023 A3 (Tsuchinshan-ATLAS) ，紫金山-阿特拉斯彗星</p>\n<p>拍摄于 2024 年10月13日和 2024 年10月14日</p>\n<p>设备：  Realme GT (</p>\n<br/><p>访问 <a href=\"https://www.logicmoriaty.top/posts/Tsuchinshan-ATLAS\" target=\"_blank\">https://www.logicmoriaty.top/posts/Tsuchinshan-ATLAS</a> 阅读全文。</p>",
+            "url": "https://www.logicmoriaty.top/posts/Tsuchinshan-ATLAS",
+            "title": "紫金山-阿特拉斯彗星",
+            "date_modified": "2025-06-10T00:00:00.000Z",
+            "date_published": "2025-06-10T00:00:00.000Z",
+            "author": {
+                "name": "Logic·Moriaty",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://www.logicmoriaty.top/posts/LaTeX-Suite-Magic-Book",
+            "content_html": "<h2>Math Mode</h2>\n<p>| <strong>Trigger</strong> | <strong>Replacement</strong>            | <strong>Options</strong> | <strong>Examples</strong> |<br>\n| ----------</p>\n<br/><p>访问 <a href=\"https://www.logicmoriaty.top/posts/LaTeX-Suite-Magic-Book\" target=\"_blank\">https://www.logicmoriaty.top/posts/LaTeX-Suite-Magic-Book</a> 阅读全文。</p>",
+            "url": "https://www.logicmoriaty.top/posts/LaTeX-Suite-Magic-Book",
+            "title": "Obsidian LaTeX Suite 魔法手册",
+            "date_modified": "2024-12-21T00:00:00.000Z",
+            "date_published": "2024-12-21T00:00:00.000Z",
+            "author": {
+                "name": "Logic·Moriaty",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://www.logicmoriaty.top/posts/Taiji-Note1",
+            "content_html": "<h1>Introduction</h1>\n<p>Why we need to study the gravitational lensing?</p>\n<p>Gravitational lensing has a wide ra</p>\n<br/><p>访问 <a href=\"https://www.logicmoriaty.top/posts/Taiji-Note1\" target=\"_blank\">https://www.logicmoriaty.top/posts/Taiji-Note1</a> 阅读全文。</p>",
+            "url": "https://www.logicmoriaty.top/posts/Taiji-Note1",
+            "title": "Note for Lensed Gravitational Waves",
+            "date_modified": "2024-11-30T00:00:00.000Z",
+            "date_published": "2024-11-30T00:00:00.000Z",
+            "author": {
+                "name": "Logic·Moriaty",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://www.logicmoriaty.top/posts/VScode and GFortran",
+            "content_html": "<h1>安装 Msys 2</h1>\n<h2>清华大学开源软件镜像站</h2>\n<p>[msys2 | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror](<a href=\"https://m\">https://m</a></p>\n<br/><p>访问 <a href=\"https://www.logicmoriaty.top/posts/VScode and GFortran\" target=\"_blank\">https://www.logicmoriaty.top/posts/VScode and GFortran</a> 阅读全文。</p>",
+            "url": "https://www.logicmoriaty.top/posts/VScode and GFortran",
+            "title": "VScode+GFortran安装配置",
+            "date_modified": "2024-11-13T00:00:00.000Z",
+            "date_published": "2024-11-13T00:00:00.000Z",
+            "author": {
+                "name": "Logic·Moriaty",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://www.logicmoriaty.top/posts/Gauss-Bonnet-Theorem",
+            "content_html": "<blockquote>\n<p>这节主要介绍计算旋转黑洞弱引力透镜偏转角的方法——Gauss-Bonnet 定理。</p>\n</blockquote>\n<p>在正式介绍 Gauss-Bonnet 定理之前，我们先了解一下多面体的欧拉示性数。</p>\n<h1>多面体的欧拉示性数</h1>\n<br/><p>访问 <a href=\"https://www.logicmoriaty.top/posts/Gauss-Bonnet-Theorem\" target=\"_blank\">https://www.logicmoriaty.top/posts/Gauss-Bonnet-Theorem</a> 阅读全文。</p>",
+            "url": "https://www.logicmoriaty.top/posts/Gauss-Bonnet-Theorem",
+            "title": "黑洞弱引力透镜偏转角计算方法——Gauss Bonnet Theorem",
+            "date_modified": "2024-04-29T00:00:00.000Z",
+            "date_published": "2024-04-29T00:00:00.000Z",
+            "author": {
+                "name": "Logic·Moriaty",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://www.logicmoriaty.top/posts/Quantum-Mechanics",
+            "content_html": "<h1>量子力学发展早期的经典实验和假说</h1>\n<h2>光的波粒二象性</h2>\n<ul>\n<li>黑体辐射实验——普朗克的能量量子假说</li>\n<li>光电效应实验——爱因斯坦的光量子假说</li>\n<li>康普顿散射实验——证实了光子的能量和动量公式的</li>\n</ul>\n<br/><p>访问 <a href=\"https://www.logicmoriaty.top/posts/Quantum-Mechanics\" target=\"_blank\">https://www.logicmoriaty.top/posts/Quantum-Mechanics</a> 阅读全文。</p>",
+            "url": "https://www.logicmoriaty.top/posts/Quantum-Mechanics",
+            "title": "量子力学复习",
+            "date_modified": "2024-04-15T00:00:00.000Z",
+            "date_published": "2024-04-15T00:00:00.000Z",
+            "author": {
+                "name": "Logic·Moriaty",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://www.logicmoriaty.top/posts/Reference-Translation1--PycWB",
+            "content_html": "<h1>Abstract</h1>\n<blockquote>\n<p>Unmodelled searches and reconstruction is a critical aspect of gravitational wave dat</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://www.logicmoriaty.top/posts/Reference-Translation1--PycWB\" target=\"_blank\">https://www.logicmoriaty.top/posts/Reference-Translation1--PycWB</a> 阅读全文。</p>",
+            "url": "https://www.logicmoriaty.top/posts/Reference-Translation1--PycWB",
+            "title": "文献翻译1——PycWB：A User-friendly, Modular, and Python-based Framework for Gravitational Wave Unmodelled Search",
+            "date_modified": "2024-04-13T00:00:00.000Z",
+            "date_published": "2024-04-13T00:00:00.000Z",
+            "author": {
+                "name": "Logic·Moriaty",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://www.logicmoriaty.top/posts/Group-theory-chapter-2",
+            "content_html": "<p>上一章讲了群的基本结构，这一章讲的是如何用数学语言描述群，对应的理论被称为群表示论。</p>\n<blockquote>\n<p>什么叫做&quot;群的表示&quot;？</p>\n</blockquote>\n<p>简单来说，一个抽象群 $G$ 的表示为另外一个群 $G'$，群 $G$ 与它的表示</p>\n<br/><p>访问 <a href=\"https://www.logicmoriaty.top/posts/Group-theory-chapter-2\" target=\"_blank\">https://www.logicmoriaty.top/posts/Group-theory-chapter-2</a> 阅读全文。</p>",
+            "url": "https://www.logicmoriaty.top/posts/Group-theory-chapter-2",
+            "title": "群论笔记——第二章 群的线性表示理论",
+            "date_modified": "2023-11-04T00:00:00.000Z",
+            "date_published": "2023-12-19T00:00:00.000Z",
+            "author": {
+                "name": "Logic·Moriaty",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://www.logicmoriaty.top/posts/Group-theory-chapter-3",
+            "content_html": "<h1>实正交群 $O(3)$.</h1>\n<h2>实正交变换矩阵</h2>\n<p>对于 $R^{3}$ 空间中的矢量，<strong>实正交变换前后，矢量的模长保持不变</strong>。也就是 $(gx)^{T}(gx) = x^{T}x$，其中 $g</p>\n<br/><p>访问 <a href=\"https://www.logicmoriaty.top/posts/Group-theory-chapter-3\" target=\"_blank\">https://www.logicmoriaty.top/posts/Group-theory-chapter-3</a> 阅读全文。</p>",
+            "url": "https://www.logicmoriaty.top/posts/Group-theory-chapter-3",
+            "title": "群论笔记——第三章 点群",
+            "date_modified": "2023-12-19T00:00:00.000Z",
+            "date_published": "2023-12-19T00:00:00.000Z",
+            "author": {
+                "name": "Logic·Moriaty",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://www.logicmoriaty.top/posts/Linux",
+            "content_html": "<p>本节为<a href=\"https://slides.com/iphysresearch/gwda_coding_1#/2/4\">第一章编程开发环境与工作流</a> 的 Linux 部分的学习总结笔记（需要魔法才能打开</p>\n<br/><p>访问 <a href=\"https://www.logicmoriaty.top/posts/Linux\" target=\"_blank\">https://www.logicmoriaty.top/posts/Linux</a> 阅读全文。</p>",
+            "url": "https://www.logicmoriaty.top/posts/Linux",
+            "title": "引力波数据探索-Linux基础命令总结",
+            "date_modified": "2023-11-19T00:00:00.000Z",
+            "date_published": "2023-11-19T00:00:00.000Z",
+            "author": {
+                "name": "Logic·Moriaty",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://www.logicmoriaty.top/posts/Theory-of-Relativity-Chapter-2",
+            "content_html": "<h1>广义相对论的基本原理</h1>\n<h2>基本原理</h2>\n<p>这一节主要说明了广义相对论的 3 个基本原理。</p>\n<ul>\n<li><strong>度规是引力场函数。</strong> 有引力存在的时空是 4- 维黎曼时空流形，其度规张量是描述引力的场的函数，满</li>\n</ul>\n<br/><p>访问 <a href=\"https://www.logicmoriaty.top/posts/Theory-of-Relativity-Chapter-2\" target=\"_blank\">https://www.logicmoriaty.top/posts/Theory-of-Relativity-Chapter-2</a> 阅读全文。</p>",
+            "url": "https://www.logicmoriaty.top/posts/Theory-of-Relativity-Chapter-2",
+            "title": "广相笔记——第二章 爱因斯坦引力场方程",
+            "date_modified": "2023-11-17T00:00:00.000Z",
+            "date_published": "2023-11-17T00:00:00.000Z",
+            "author": {
+                "name": "Logic·Moriaty",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://www.logicmoriaty.top/posts/Docker",
+            "content_html": "<h1>Docker 的安装</h1>\n<ul>\n<li>Docker 是一个开源的商业产品，有两个版本：社区版（Community Edition，缩写为 CE）和企业版（Enterprise Edition，缩写为 EE）。</li>\n</ul>\n<br/><p>访问 <a href=\"https://www.logicmoriaty.top/posts/Docker\" target=\"_blank\">https://www.logicmoriaty.top/posts/Docker</a> 阅读全文。</p>",
+            "url": "https://www.logicmoriaty.top/posts/Docker",
+            "title": "引力波数据探索-Docker的使用入门",
+            "date_modified": "2023-11-16T00:00:00.000Z",
+            "date_published": "2023-11-16T00:00:00.000Z",
+            "author": {
+                "name": "Logic·Moriaty",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://www.logicmoriaty.top/posts/习思想资料整理-第十章-建设社会主义文化强国",
+            "content_html": "<p>文化兴则国运兴，文化强则民族强。实现中华民族伟大复兴，必然要求推动中华文化繁荣兴盛，建设社会主义文化强国。</p>\n<p>::: tip<br>\n**习近平指出：&quot;中国特色社会主义是物质文明和精神文明全面发展的社会主义</p>\n<br/><p>访问 <a href=\"https://www.logicmoriaty.top/posts/习思想资料整理-第十章-建设社会主义文化强国\" target=\"_blank\">https://www.logicmoriaty.top/posts/习思想资料整理-第十章-建设社会主义文化强国</a> 阅读全文。</p>",
+            "url": "https://www.logicmoriaty.top/posts/习思想资料整理-第十章-建设社会主义文化强国",
+            "title": "习思想资料整理-第十章 建设社会主义文化强国",
+            "date_modified": "2023-10-15T00:00:00.000Z",
+            "date_published": "2023-10-15T00:00:00.000Z",
+            "author": {
+                "name": "Logic·Moriaty",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://www.logicmoriaty.top/posts/Group-theory-chapter-4",
+            "content_html": "<h1>李群的定义和线性表示</h1>\n<h2>李群的定义</h2>\n<p>::: warning 李群<br>\n李群 $G$ 是一种特殊的<strong>连续群</strong>，群元 $g$ 可以用 $r$ 个独立实参数 $\\alpha \\equiv (\\alp</p>\n<br/><p>访问 <a href=\"https://www.logicmoriaty.top/posts/Group-theory-chapter-4\" target=\"_blank\">https://www.logicmoriaty.top/posts/Group-theory-chapter-4</a> 阅读全文。</p>",
+            "url": "https://www.logicmoriaty.top/posts/Group-theory-chapter-4",
+            "title": "群论笔记——第四章 李群与李代数",
+            "date_modified": "2023-10-11T00:00:00.000Z",
+            "date_published": "2023-10-11T00:00:00.000Z",
+            "author": {
+                "name": "Logic·Moriaty",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://www.logicmoriaty.top/posts/习思想复习-导论-马克思主义中国化时代化新的飞跃",
+            "content_html": "<h1>习近平新时代中国特色社会主义思想是如何创立的</h1>\n<h3>1 两个大局</h3>\n<p>::: details<br>\n<strong>“两个大局”一是中华民族伟大复兴的战略全局，二是世界百年未有之大变局。</strong> 世界百年未有之大变局加速</p>\n<br/><p>访问 <a href=\"https://www.logicmoriaty.top/posts/习思想复习-导论-马克思主义中国化时代化新的飞跃\" target=\"_blank\">https://www.logicmoriaty.top/posts/习思想复习-导论-马克思主义中国化时代化新的飞跃</a> 阅读全文。</p>",
+            "url": "https://www.logicmoriaty.top/posts/习思想复习-导论-马克思主义中国化时代化新的飞跃",
+            "title": "习思想复习-导论 马克思主义中国化时代化新的飞跃",
+            "date_modified": "2023-10-08T00:00:00.000Z",
+            "date_published": "2023-10-08T00:00:00.000Z",
+            "author": {
+                "name": "Logic·Moriaty",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://www.logicmoriaty.top/posts/习思想复习-第一章-新时代坚持和发展中国特色社会主义",
+            "content_html": "<h3>1 <strong>如何理解中国特色社会主义不是从天上掉下来的？</strong></h3>\n<p>::: details<br>\n<strong>中国特色社会主义具有深厚的历史渊源和广泛的现实基础</strong>，其拥有中华文明5000多年的传承发展、世界社会主义</p>\n<br/><p>访问 <a href=\"https://www.logicmoriaty.top/posts/习思想复习-第一章-新时代坚持和发展中国特色社会主义\" target=\"_blank\">https://www.logicmoriaty.top/posts/习思想复习-第一章-新时代坚持和发展中国特色社会主义</a> 阅读全文。</p>",
+            "url": "https://www.logicmoriaty.top/posts/习思想复习-第一章-新时代坚持和发展中国特色社会主义",
+            "title": "习思想复习-第一章 新时代坚持和发展中国特色社会主义",
+            "date_modified": "2023-10-08T00:00:00.000Z",
+            "date_published": "2023-10-08T00:00:00.000Z",
+            "author": {
+                "name": "Logic·Moriaty",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://www.logicmoriaty.top/posts/群论笔记-第一章-群的基本知识",
+            "content_html": "<h1>1 群的定义</h1>\n<h2>1.1 个定义</h2>\n<p>在规定元素的&quot;<strong>乘积</strong>&quot;法则之后，满足以下<strong>四个条件</strong>的集合 G 称为群：</p>\n<ol>\n<li><strong>封闭性</strong>：对于 $\\forall f, g \\in G$， 都有</li>\n</ol>\n<br/><p>访问 <a href=\"https://www.logicmoriaty.top/posts/群论笔记-第一章-群的基本知识\" target=\"_blank\">https://www.logicmoriaty.top/posts/群论笔记-第一章-群的基本知识</a> 阅读全文。</p>",
+            "url": "https://www.logicmoriaty.top/posts/群论笔记-第一章-群的基本知识",
+            "title": "群论笔记——第一章 群的基本知识",
+            "date_modified": "2023-09-13T00:00:00.000Z",
+            "date_published": "2023-10-05T00:00:00.000Z",
+            "author": {
+                "name": "Logic·Moriaty",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://www.logicmoriaty.top/posts/群论笔记-绪论",
+            "content_html": "<h1>群论的主题</h1>\n<p>群论的主题是<strong>对称性</strong>，是研究系统对称性质的有力工具。</p>\n<p>那么什么是对称性？</p>\n<p>对称性：对一个物理定律适用的物理系统进行一定的<strong>变换操作</strong>后，物理定律保持不变的性质。</p>\n<p>常见的</p>\n<br/><p>访问 <a href=\"https://www.logicmoriaty.top/posts/群论笔记-绪论\" target=\"_blank\">https://www.logicmoriaty.top/posts/群论笔记-绪论</a> 阅读全文。</p>",
+            "url": "https://www.logicmoriaty.top/posts/群论笔记-绪论",
+            "title": "群论笔记——绪论",
+            "date_modified": "2023-09-12T00:00:00.000Z",
+            "date_published": "2023-10-05T00:00:00.000Z",
+            "author": {
+                "name": "Logic·Moriaty",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://www.logicmoriaty.top/posts/hello-valaxy",
+            "content_html": "<h1>Hello！</h1>\n<p>网站终于算是差不多搭建好了，总算是有了自己的Blog网站，小小的记录一下hhh！o(*≧▽≦)ツ</p>\n<br/><p>访问 <a href=\"https://www.logicmoriaty.top/posts/hello-valaxy\" target=\"_blank\">https://www.logicmoriaty.top/posts/hello-valaxy</a> 阅读全文。</p>",
+            "url": "https://www.logicmoriaty.top/posts/hello-valaxy",
+            "title": "Hello, 记录网站上的第一篇blog!",
+            "date_modified": "2023-09-02T00:00:00.000Z",
+            "date_published": "2023-09-02T00:00:00.000Z",
+            "author": {
+                "name": "Logic·Moriaty",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://www.logicmoriaty.top/posts/try",
+            "content_html": "<p>再见<br>\n<img src=\"../../source/images/236330202e3f44c4b584125dc92cf9b3.jpg\" alt=\"\"></p>\n<p>!!! warning<br>\nfafd<br>\n!!!</p>\n<br/><p>访问 <a href=\"https://www.logicmoriaty.top/posts/try\" target=\"_blank\">https://www.logicmoriaty.top/posts/try</a> 阅读全文。</p>",
+            "url": "https://www.logicmoriaty.top/posts/try",
+            "title": "try",
+            "date_modified": "2023-09-02T00:00:00.000Z",
+            "date_published": "2023-09-02T00:00:00.000Z",
+            "author": {
+                "name": "Logic·Moriaty",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}
